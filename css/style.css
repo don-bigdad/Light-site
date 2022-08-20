@@ -1,0 +1,21 @@
+svg path {
+    fill:inherit;
+    stroke:inherit;
+    stroke-width:inherit;
+
+}
+.yellow_hover {
+    color:rgb(132, 132, 40)
+}
+.yellow_hover:hover {
+fill:rgb(203, 254, 62);
+border-radius: 20px;
+background-color:rgb(26, 26, 18) ;
+transition: all .3s ease;
+}
+.card_hover:hover{
+    color: rgb(190, 137, 12);
+}
+.card_hover{
+    margin-right: 10px;
+}
