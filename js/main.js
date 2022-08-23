@@ -1,5 +1,47 @@
 
+(function() {
+    "use strict";
+  
+/**
+ * Easy selector helper function
+ */
+const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+    return [...document.querySelectorAll(el)]
+    } else {
+    return document.querySelector(el)
+    }
+}
+/**
+   * Menu isotope and filter
+   */
+window.addEventListener('load', () => {
+    let menuContainer = select('.menu-container');
+    if (menuContainer) {
+      let menuIsotope = new Isotope(menuContainer, {
+        itemSelector: '.menu-item',
+        layoutMode: 'fitRows'
+      });
 
+      let menuFilters = select('#menu-flters li', true);
+
+      on('click', '#menu-flters li', function(e) {
+        e.preventDefault();
+        menuFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+        
+        menuIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+
+      }, true);
+    }
+
+  });
+})()
 
 
 
@@ -28,3 +70,5 @@ var countDownFunction =setInterval(function() {
         document.getElementById("timer").innerHTML = "Sales end"
     }
 },1000)
+
+
