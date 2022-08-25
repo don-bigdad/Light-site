@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS only -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="/css/style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,7 +19,7 @@
 <body>
   <!--Header-->
   <header>
-    <nav style="border-radius:20px ;" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <nav style="border-radius:20px;" class="navbar fixed-top navbar-expand-sm navbar-dark navigate">
       <div class="container-xl">
         <a class="navbar-brand" href="#"><svg class="yellow_hover" xmlns="http://www.w3.org/2000/svg" width="23"
             height="23" fill="currentColor" class="bi bi-lamp" viewBox="0 0 16 16">
@@ -34,33 +35,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Product</a>
+              <a class="nav-link" aria-current="page" href="#Product">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a style="color:red" class="nav-link" href="#Sale">SALE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link waves-effect" href="#">Contact</a>
+              <a class="nav-link waves-effect" href="#ContactUs">Contact</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="#Gallery">Gallery</a>
             </li>
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
               <a href="#" class="nav-link">
-
                 <span class="badge rounded-pill bg-danger">
                   <div class="item-count">0</div>
                 </span>
@@ -114,8 +103,8 @@
   <!--Main-->
   <main>
     <!--Gallery section-->
-    <section>
-      <div class="container-fluid ">
+    <section id="Gallery">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-xl-8 col-md-7">
             <div id="carouselExampleControls" data-bs-interval="2000" class="carousel slide carousel-fade"
@@ -161,20 +150,20 @@
           <div id="carouselExampleControls1" data-bs-interval="2500" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active ">
-                <img class="d-block w-100 carous1 " src="/img/slider/custom1.webp" alt="First slide">
+                <img class="d-block w-100 carous1" src="/img/slider/custom1.webp" alt="First slide">
                 <div style="top:20%;color:black" class="carousel-caption">
                   <h4>Customize your room with our products</h4>
                 </div>
               </div>
               <div class="carousel-item ">
                 <img class="d-block w-100 carous1" src="/img/slider/custom2.jpeg" alt="Second slide">
-                <div style="top:20%;" class="carousel-caption">
+                <div style="top:17%;" class="carousel-caption">
                   <h4>Create unique design</h4>
                 </div>
               </div>
               <div class="carousel-item ">
                 <img class="d-block w-100 carous1" src="/img/slider/custom7.webp" alt="Third slide">
-                <div style="bottom:10%" style="top:13px ;" class="carousel-caption">
+                <div style="bottom:1%;" style="top:13px ;" class="carousel-caption">
                   <h4>Choose you mood</h4>
                 </div>
               </div>
@@ -208,10 +197,10 @@
           </div>
           <div id="carouselExampleControls2" data-bs-interval="3000" class="carousel slide " data-ride="carousel">
             <div class="carousel-inner">
-              <div style="margin-top:5px;height:260px;width:100%;" class="carousel-item active carous2">
-                <img class="d-block w-100 " src="/img/slider/unique.jpeg" alt="First slide">
-                <div style="bottom:13%" class="carousel-caption">
-                  <h3>Watch our unique collection</h3>
+              <div class="carousel-item active ">
+                <img class="d-block w-100 carous2" src="/img/slider/unique.jpeg" alt="First slide">
+                <div style="bottom:1%" class="carousel-caption">
+                  <h2 style="font-family: 'Caveat', cursive;" >Watch our unique collection</h2>
                 </div>
               </div>
               <div class="carousel-item">
@@ -238,17 +227,19 @@
       </div>
     </section>
     <!--Sale section-->
-    <section class="saling">
-      <div style="margin-top:50px ;" class="container text-center">
-        <h1 style="font-family:sans-serif ;font-weight:lighter;font-size:50px">Until the end of the sale left</h1>
+    <section id="Sale" class="saling parallax">
+      <div style="height:90px ;"></div>
+      <div style="margin-top:50px;" class="container text-center">
+          <h1 class="TitleSaling">Until the end of the sale left</h1>
         <hr>
-        <p style="font-family:sans-serif ;font-weight:lighter;font-size:30px;letter-spacing:5px" id="timer"></p>
-        <div style="margin-left:6%;width:100%;background-color:black;" id="SalingCarousel" class="carousel slide" data-bs-ride="carousel">
+        <p  class="time"id="timer"></p>
+        <div id="SalingCarousel" class="carousel slide SaleCarousel"
+          data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
                 <div class="col">
-                  <div class="card" style="width:18rem;border:2px solid gray;margin-top:15px;margin-bottom:20px">
+                  <div class="card saleitem">
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                       50%
                     </span>
@@ -265,7 +256,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card" style="width:18rem;border:2px solid gray;margin-top:15px">
+                  <div class="card saleitem">
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                       50%
                     </span>
@@ -282,28 +273,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card" style="width:18rem;border:2px solid gray;margin-top:15px">
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                      50%
-                    </span>
-                    <img src="/img/slider/saling.jpg" class="card-img-top" alt="sale item">
-                    <div class="card-body">
-                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p><br>
-                      <s>20$</s>
-                      <strong>10$</strong>
-                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col">
-                  <div class="card" style="width:18rem;border:2px solid gray;margin-top:15px;margin-bottom:20px">
+                  <div class="card saleitem" >
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                       50%
                     </span>
@@ -320,7 +290,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card" style="width:18rem;border:2px solid gray;margin-top:15px">
+                  <div class="card saleitem">
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                       50%
                     </span>
@@ -330,26 +300,9 @@
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                         the
                         card's content.</p><br>
+                      <a href="#" style="margin-right:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
                       <s>20$</s>
                       <strong>10$</strong>
-                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card" style="width:18rem;border:2px solid gray;margin-top:15px">
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                      50%
-                    </span>
-                    <img src="/img/slider/saling.jpg" class="card-img-top" alt="sale item">
-                    <div class="card-body">
-                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p><br>
-                      <s>20$</s>
-                      <strong>10$</strong>
-                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
                     </div>
                   </div>
                 </div>
@@ -358,7 +311,7 @@
             <div class="carousel-item">
               <div class="row">
                 <div class="col">
-                  <div class="card" style="width:18rem;border:2px solid gray;margin-top:15px">
+                  <div class="card saleitem">
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                       50%
                     </span>
@@ -375,7 +328,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card" style="width:18rem;border:2px solid gray;margin-top:15px">
+                  <div class="card saleitem">
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                       50%
                     </span>
@@ -392,7 +345,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card" style="width:18rem;border:2px solid gray;margin-top:15px;margin-bottom:20px">
+                  <div class="card saleitem" >
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                       50%
                     </span>
@@ -405,6 +358,95 @@
                       <s>20$</s>
                       <strong>10$</strong>
                       <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src="/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <a href="#" style="margin-right:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src="/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src="/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem" >
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src="/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src="/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <a href="#" style="margin-right:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                      <s>20$</s>
+                      <strong>10$</strong>
                     </div>
                   </div>
                 </div>
@@ -415,7 +457,8 @@
               <span style="background-image: url(/img/slider/left-arrow\ \(1\).png) " class="carousel-control-prev-icon"
                 aria-hidden="false"></span>
             </button>
-            <button style="left:83%; position:absolute" class="carousel-control-next" type="button" data-bs-target="#SalingCarousel" data-bs-slide="next">
+            <button style="left:88%; position:absolute" class="carousel-control-next" type="button"
+              data-bs-target="#SalingCarousel" data-bs-slide="next">
               <span style="background-image: url(/img/slider/right-arrow.png);" class="carousel-control-next-icon"
                 aria-hidden="true"></span>
             </button>
@@ -425,17 +468,18 @@
     </section>
 
     <!--Product section-->
-    <section>
-      <div style="margin-top:20px ;" class="container text-center">
+    <section class="product" id="Product">
+      <div style="height:70px;margin-top:20px;"></div>
+      <div class="container text-center header-transparent">
         <h2>Our Product</h2>
         <ul class="Itempicker">
-          <li  class="list active PickCategory" data-filter="all">all</li>
-          <li  class="list PickCategory" data-filter="lamp">lamp</li>
-          <li  class="list PickCategory" data-filter="desk">desk</li>
+          <li class="list active PickCategory" data-filter="all">all</li>
+          <li class="list PickCategory" data-filter="lamp">lamp</li>
+          <li class="list PickCategory" data-filter="desk">desk</li>
         </ul>
         <div class="row">
           <div class="col">
-            <div class="card item" data-item="desk" style="width: 260px;">
+            <div class="card item" data-item="desk" >
               <img src="/img/slider/card.jpg" class="card-img-top" alt="Desk lamp">
               <div class="card-body">
                 <h5 class="card-title">Floor lamp MAYTONI 96917</h5>
@@ -446,81 +490,81 @@
             </div>
           </div>
           <div class="col">
-            <div class="card item" data-item="desk" style="width: 260px;">
+            <div class="card item" data-item="desk">
               <img src="/img/slider/card.jpg" class="card-img-top" alt="Desk lamp">
               <div class="card-body">
                 <h5 class="card-title">Floor lamp MAYTONI 96917</h5>
                 <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
                 <a href="#" class="btn btn-warning price">Add to cart</a>
-                <a  class="btn btn-primary">15$</a>
+                <a class="btn btn-primary">15$</a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div data-item="desk" class="card item" style="width: 260px;">
+            <div data-item="desk" class="card item">
               <img src="/img/slider/card.jpg" class="card-img-top" alt="Desk lamp">
               <div class="card-body">
                 <h5 class="card-title">Floor lamp MAYTONI 96917</h5>
                 <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
                 <a href="#" class="btn btn-warning price">Add to cart</a>
-                <a " class="btn btn-primary">15$</a>
+                <a " class=" btn btn-primary">15$</a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div data-item="desk" class="card item" style="width: 260px;">
+            <div data-item="desk" class="card item">
               <img src="/img/slider/card.jpg" class="card-img-top" alt="Desk lamp">
               <div class="card-body">
                 <h5 class="card-title">Floor lamp MAYTONI 96917</h5>
                 <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
                 <a href="#" class="btn btn-warning price">Add to cart</a>
-                <a  class="btn btn-primary">15$</a>
+                <a class="btn btn-primary">15$</a>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <div data-item="lamp" class="card item" style="width: 260px;">
+            <div data-item="lamp" class="card item">
               <img src="/img/slider/lustra.jpg" class="card-img-top" alt="Desk lamp">
               <div class="card-body">
                 <h5 class="card-title">Люстра NOWODVORSKI 57862</h5>
                 <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
                 <a href="#" class="btn btn-warning price">Add to cart</a>
-                <a  class="btn btn-primary">15$</a>
+                <a class="btn btn-primary">15$</a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div data-item="lamp" class="card item" style="width: 260px;">
+            <div data-item="lamp" class="card item">
               <img src="/img/slider/lustra.jpg" class="card-img-top" alt="Desk lamp">
               <div class="card-body">
                 <h5 class="card-title">Люстра NOWODVORSKI 57862</h5>
                 <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
                 <a href="#" class="btn btn-warning price">Add to cart</a>
-                <a  class="btn btn-primary">15$</a>
+                <a class="btn btn-primary">15$</a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div data-item="lamp" class="card item" style="width: 260px;">
+            <div data-item="lamp" class="card item">
               <img src="/img/slider/lustra.jpg" class="card-img-top" alt="Desk lamp">
               <div class="card-body">
                 <h5 class="card-title">Люстра NOWODVORSKI 57862</h5>
                 <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
                 <a href="#" class="btn btn-warning price">Add to cart</a>
-                <a  class="btn btn-primary">15$</a>
+                <a class="btn btn-primary">15$</a>
               </div>
             </div>
           </div>
           <div class="col">
-            <div data-item="lamp" class="card item" style="width: 260px;">
+            <div data-item="lamp" class="card item">
               <img src="/img/slider/lustra.jpg" class="card-img-top" alt="Desk lamp">
               <div class="card-body">
                 <h5 class="card-title">Люстра NOWODVORSKI 57862</h5>
                 <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
                 <a href="#" class="btn btn-warning price">Add to cart</a>
-                <a  class="btn btn-primary">15$</a>
+                <a class="btn btn-primary">15$</a>
               </div>
             </div>
           </div>
@@ -562,11 +606,10 @@
         </form>
       </div>
     </section>
-
     <!--Feedback section-->
     <section>
-      <div style="margin-top:60px ; height:450px;background-color:rgb(209, 204, 204)" id="FeedbackCarousel"
-        class="carousel slide text-center " data-ride="carousel">
+      <div id="FeedbackCarousel"
+        class="carousel slide text-center feedback" data-ride="carousel">
         <div class="carousel-inner">
           <div style="margin-top:30px ;" class="carousel-item active">
             <img class="rounded-circle shadow-1-strong mb-4"
@@ -636,29 +679,40 @@
               </div>
             </div>
           </div>
+          <button style="left:5%" class="carousel-control-prev" type="button" data-bs-target="#FeedbackCarousel"
+            data-bs-slide="prev">
+            <span style="background-image: url(/img/slider/left-arrow\ \(1\).png) " class="carousel-control-prev-icon"
+              aria-hidden="false"></span>
+          </button>
+          <button style="right: 10%; width: 50px;" class="carousel-control-next" type="button"
+            data-bs-target="#FeedbackCarousel" data-bs-slide="next">
+            <span style="background-image: url(/img/slider/right-arrow.png);" class="carousel-control-next-icon"
+              aria-hidden="true"></span>
+          </button>
         </div>
-        <button style="left: 45px;" class="carousel-control-prev" type="button" data-bs-target="#FeedbackCarousel"
-          data-bs-slide="prev">
-          <span style="background-image: url(/img/slider/left-arrow\ \(1\).png) " class="carousel-control-prev-icon"
-            aria-hidden="false"></span>
-        </button>
-        <button style="right: 150px; width: 50px;" class="carousel-control-next" type="button"
-          data-bs-target="#FeedbackCarousel" data-bs-slide="next">
-          <span style="background-image: url(/img/slider/right-arrow.png);" class="carousel-control-next-icon"
-            aria-hidden="true"></span>
-        </button>
+      </div>
+    </section>
+    <!--mailing section-->
+    <section>
+
+      <div class="container-fluid text-center mailing">
+        <div style="height:35px;"></div>
+        <form class="form-input">
+          <h2>Subscribe to our newsletter to be the first to know about new products</h2>
+          <input style="width:350px;margin:auto" type="mail" class="form-control mail-input" id="mailing" placeholder="Enter your email">
+          <button type="submit" class="btn btn-primary mail-but">Submit</button>
+        </form>
       </div>
     </section>
   </main>
   <footer>
-    <div style="height: 300px;" class="container-fluid bg-dark text-center">
-
+    <div style="height: 300px;" class="container-fluid bg-dark text-center ">
       <h2 style="color:white;padding-top:100px">Light</h2>
-      <p style="color:white;">© Copyright Delicious. All Rights Reserved
-        Designed by BootstrapMade</p>
-
+      <p style="color:white;">© Copyright Light. All Rights Reserved
+        Designed by don-bigdad</p>
     </div>
   </footer>
+
 
   <script src="/js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
