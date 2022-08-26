@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat:wght@400;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#Gallery{
+  font-family: "Manrope";
+}
+.navigate{
+  background-color: rgba(0,0,0,0.8); 
+  background-position: initial initial;
+  background-repeat: initial initial;
+
+}
+svg path {
+    fill:inherit;
+    stroke:inherit;
+    stroke-width:inherit;
+}
+.yellow_hover {
+    color:rgb(132, 132, 40)
+}
+.yellow_hover:hover {
+fill:rgb(203, 254, 62);
+border-radius: 20px;
+background-color:rgb(26, 26, 18) ;
+transition: all .3s ease;
+}
+.card_hover:hover{
+    color: rgb(190, 137, 12);
+}
+.card_hover{
+    margin-right: 10px;
+}
+.carous{
+    height: 550px;
+    margin-top: 70px;
+  
+    object-fit:cover;
+    border-radius:10px;
+}
+.carous1{
+    height: 270px;
+    margin-top: 70px;
+    border-radius:10px;
+    object-fit: cover;
+}
+.carous2{
+  height:270px;
+  margin-top:5px;
+  width: 100%;
+  border-radius:10px;
+  object-fit: cover;
+}
+.parallax{
+  box-shadow: 5px 5px 5px 10px rgba(0.2,0.3,0.3,.4);
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.saling{
+  margin-top:20px;
+  border-radius: 40px;
+}
+
+.TitleSaling{
+  font-family:sans-serif ;
+  font-size:50px;
+  color:rgb(21, 14, 14);
+}
+.time{
+  font-family:sans-serif ;
+  font-weight:lighter;
+  font-size:30px;letter-spacing:5px;
+  color:rgb(2, 2, 1)
+}
+.SaleCarousel{
+  left: -50px;
+  margin-top:90px;
+  height:600px ;
+  width: 1400px;
+}
+.card{
+    position: relative;
+    margin: 5px;
+    margin-left: 10px;
+    border: 5px solid rgb(180, 159, 159);
+    box-shadow: 5 5px 10px rgba(0,0,0,.4);
+}
+.card.saleitem{
+  width:18rem;
+  margin-bottom:20px;margin-top:15px;
+  border: 2px solid rgb(48, 41, 41);
+}
+.product{
+  background-color: rgb(180, 161, 140);
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px 10px rgba(0.2,0.3,0.3,.4);
+  margin:auto;
+}
+.price{
+    width: 130px;
+}
+.card.item{
+  border: 2px solid yellow;
+}
+.card:hover{
+    box-shadow: 0px 14px 30px -15px rgb(26, 26, 18);
+}
+.feedback{
+  margin:auto;
+  height:450px;
+  background-color:rgb(209, 204, 204);
+  
+}
+.feedback-img{
+    width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.Itempicker{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.item{
+  margin:auto;
+  width:260px;
+  margin-bottom: 15px;
+}
+.PickCategory{
+  list-style: none;
+  background-color: rgb(215, 210, 210);
+  padding: 8px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.PickCategory.active{
+  background:rgb(247, 179, 7);
+  color: white;
+}
+.item.hide{
+  display: none;
+}
+.contact{
+  box-shadow: 0 5px 10px rgba(0,0,0,.4);
+  margin-bottom: 20px;
+}
+.mailing{
+  height: 220px;
+  color: white;
+}
+.mail-input{
+  width: 200px;
+}
+.mail-but{
+  border-radius:20px;
+  border:2px solid gray;
+  margin-top: 20px;
+}
