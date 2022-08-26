@@ -88,10 +88,10 @@ transition: all .3s ease;
     border: 5px solid rgb(180, 159, 159);
     box-shadow: 5 5px 10px rgba(0,0,0,.4);
 }
-.saleitem{
+.card.saleitem{
   width:18rem;
-  border:2px solid gray;
-  margin-bottom:20px;margin-top:15px
+  margin-bottom:20px;margin-top:15px;
+  border: 2px solid rgb(48, 41, 41);
 }
 .product{
   background-color: rgb(180, 161, 140);
@@ -102,12 +102,15 @@ transition: all .3s ease;
 .price{
     width: 130px;
 }
+.card.item{
+  border: 2px solid yellow;
+}
 .card:hover{
     box-shadow: 0px 14px 30px -15px rgb(26, 26, 18);
 }
 .feedback{
   margin:auto;
-  height:400px;
+  height:450px;
   background-color:rgb(209, 204, 204);
   
 }
@@ -148,11 +151,12 @@ transition: all .3s ease;
 }
 .contact{
   box-shadow: 0 5px 10px rgba(0,0,0,.4);
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .mailing{
-  background-color: rgb(110, 157, 110);
-  height: 200px;
+  background-image: url(/img/slider/mailpicture.webp);
+  height: 220px;
+  color: white;
 }
 .mail-input{
   width: 200px;
