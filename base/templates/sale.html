@@ -1,0 +1,245 @@
+ <!--Sale section-->
+ <section style="background-image: url(/img/slider/background1.jpg);margin-top:20px;" id="Sale" class="saling parallax">
+      <div style="height:90px;"></div>
+      <div class="container text-center">
+          <h1 class="TitleSaling">Until the end of the sale left</h1>
+        <hr>
+        <p  class="time"id="timer"></p>
+        <div id="SalingCarousel" class="carousel slide SaleCarousel"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                {% for item in sale_item %}
+              <div class="row">
+
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      {{ item.sele_percent_auto_calculate}}%
+                    </span>
+                    <img src= {{ item.picture.url }}  class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ item.name}}</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>{{ item.past_price}}$</s>
+                      <strong>{{ item.new_price}}$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+
+                  </div>
+
+                </div>
+                  {% endfor %}
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem" >
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <a href="#" style="margin-right:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+             <div class="row">
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg"  class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg"  class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem" >
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <a href="#" style="margin-right:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+             <div class="row">
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg"  class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem" >
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                      <a href="#" style="margin-left:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      50%
+                    </span>
+                    <img src= "/img/slider/saling.jpg" class="card-img-top" alt="sale item">
+                    <div class="card-body">
+                      <h5 class="card-title">Світильник стельовий MAYTONI 27390</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p><br>
+                      <a href="#" style="margin-right:40px;width:140px" class="cart-btn btn btn-warning">Add to cart</a>
+                      <s>20$</s>
+                      <strong>10$</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button style="left:-5%;" class="carousel-control-prev" type="button" data-bs-target="#SalingCarousel"
+              data-bs-slide="prev">
+              <span style="background-image: url(/img/slider/left-arrow.png)" class="carousel-control-prev-icon"
+                aria-hidden="false"></span>
+            </button>
+            <button style="left:88%; position:absolute" class="carousel-control-next" type="button"
+              data-bs-target="#SalingCarousel" data-bs-slide="next">
+              <span style="background-image: url( /img/slider/right-arrow.png );" class="carousel-control-next-icon"
+                aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>

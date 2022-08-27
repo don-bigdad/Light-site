@@ -1,0 +1,108 @@
+ <section class="product" id="Product">
+      <div style="height:70px;margin-top:20px;"></div>
+      <div class="container text-center header-transparent">
+        <h2>Our Product</h2>
+        <ul class="Itempicker">
+            {% for category in categories %}
+                <li class="list PickCategory" data-filter="{{ category.name }}">{{ category.name }}</li>
+            {% endfor %}
+          {#  <li class="list active PickCategory" data-filter="all">all</li> #}
+          {# <li class="list PickCategory" data-filter="lamp">lamp</li> #}
+          {# <li class="list PickCategory" data-filter="desk">desk</li> #}
+        </ul>
+        <div class="row">
+          <div class="col">
+              {% for prod in  product%}
+            <div class="card item" data-item="{{ prod.category.name }}" >
+              <img src={{ prod.picture.url }} class="card-img-top" alt="Desk lamp">
+              <div class="card-body">
+                <h5 class="card-title">Floor lamp MAYTONI 96917</h5>
+                <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
+                <a href="#" class="btn btn-warning price">Add to cart</a>
+                <a class="btn btn-primary">15$</a>
+              </div>
+                {% endfor %}
+            </div>
+          </div>
+          <div class="col">
+            <div class="card item" data-item="desk">
+              <img src= "/img/slider/card.jpg" class="card-img-top" alt="Desk lamp">
+              <div class="card-body">
+                <h5 class="card-title">Floor lamp MAYTONI 96917</h5>
+                <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
+                <a href="#" class="btn btn-warning price">Add to cart</a>
+                <a class="btn btn-primary">15$</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div data-item="desk" class="card item">
+              <img src= "/img/slider/card.jpg" class="card-img-top" alt="Desk lamp">
+              <div class="card-body">
+                <h5 class="card-title">Floor lamp MAYTONI 96917</h5>
+                <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
+                <a href="#" class="btn btn-warning price">Add to cart</a>
+                <a class=" btn btn-primary">15$</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div data-item="desk" class="card item">
+              <img src= "/img/slider/card.jpg" class="card-img-top" alt="Desk lamp">
+              <div class="card-body">
+                <h5 class="card-title">Floor lamp MAYTONI 96917</h5>
+                <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
+                <a href="#" class="btn btn-warning price">Add to cart</a>
+                <a class="btn btn-primary">15$</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div data-item="lamp" class="card item">
+              <img src= "/img/slider/lustra.jpg" class="card-img-top" alt="Desk lamp">
+              <div class="card-body">
+                <h5 class="card-title">Люстра NOWODVORSKI 57862</h5>
+                <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
+                <a href="#" class="btn btn-warning price">Add to cart</a>
+                <a class="btn btn-primary">15$</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div data-item="lamp" class="card item">
+              <img src= "/img/slider/lustra.jpg" class="card-img-top" alt="Desk lamp">
+              <div class="card-body">
+                <h5 class="card-title">Люстра NOWODVORSKI 57862</h5>
+                <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
+                <a href="#" class="btn btn-warning price">Add to cart</a>
+                <a class="btn btn-primary">15$</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div data-item="lamp" class="card item">
+              <img src= "/img/slider/lustra.jpg" class="card-img-top" alt="Desk lamp">
+              <div class="card-body">
+                <h5 class="card-title">Люстра NOWODVORSKI 57862</h5>
+                <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
+                <a href="#" class="btn btn-warning price">Add to cart</a>
+                <a class="btn btn-primary">15$</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div data-item="lamp" class="card item">
+              <img src= "/img/slider/lustra.jpg" class="card-img-top" alt="Desk lamp">
+              <div class="card-body">
+                <h5 class="card-title">Люстра NOWODVORSKI 57862</h5>
+                <p class="card-text">Convenient desktop lamp.Best helper for night work</p>
+                <a href="#" class="btn btn-warning price">Add to cart</a>
+                <a class="btn btn-primary">15$</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
