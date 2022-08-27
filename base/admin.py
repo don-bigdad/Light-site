@@ -3,7 +3,7 @@ from .models import *
 
 admin.site.site_header = "Django admin panel for 'Light' site"
 admin.site.register(Category)
-
+admin.site.register(CustomSlider)
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):

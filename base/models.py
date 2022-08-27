@@ -11,7 +11,7 @@ class SaleItem(models.Model):
     picture = models.ImageField(upload_to="sale/%Y-%m-%d")
 
     @property #в шаблоне будет автоматом выставлятся процент скидки
-    def sele_percent_auto_calculate(self):
+    def sale_percent_auto_calculate(self):
         return 100 - self.new_price * 100 // self.past_price
 
     class Meta:
@@ -45,3 +45,9 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+class CustomSlider(models.Model):
+    image = models.ImageField(upload_to="slider/%Y-%m-%d")
+    right_arrow = models.ImageField(upload_to="slider/right_arrow/%Y-%m-%d")
+    left_arrow = models.ImageField(upload_to="slider/left_arrow/%Y-%m-%d")
+

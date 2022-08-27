@@ -7,7 +7,6 @@
   background-color: rgba(0,0,0,0.8); 
   background-position: initial initial;
   background-repeat: initial initial;
-
 }
 svg path {
     fill:inherit;
@@ -18,10 +17,10 @@ svg path {
     color:rgb(132, 132, 40)
 }
 .yellow_hover:hover {
-fill:rgb(203, 254, 62);
-border-radius: 20px;
-background-color:rgb(26, 26, 18) ;
-transition: all .3s ease;
+    fill:rgb(203, 254, 62);
+    border-radius: 20px;
+    background-color:rgb(26, 26, 18) ;
+    transition: all .3s ease;
 }
 .card_hover:hover{
     color: rgb(190, 137, 12);
@@ -43,23 +42,24 @@ transition: all .3s ease;
     object-fit: cover;
 }
 .carous2{
-  height:270px;
-  margin-top:5px;
-  width: 100%;
-  border-radius:10px;
-  object-fit: cover;
+    height:270px;
+    margin-top:5px;
+    width: 100%;
+    border-radius:10px;
+    object-fit: cover;
 }
 .parallax{
-  box-shadow: 5px 5px 5px 10px rgba(0.2,0.3,0.3,.4);
-  height: 900px;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("/static/img/slider/background1.jpg");
+    box-shadow: 5px 5px 5px 10px rgba(0.2,0.3,0.3,.4);
+    height: 900px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .saling{
-  margin-top:20px;
+  margin-top:10px;
   border-radius: 40px;
 }
 
@@ -83,14 +83,24 @@ transition: all .3s ease;
 .card{
     position: relative;
     margin: 5px;
-    margin-left: 10px;
     border: 5px solid rgb(180, 159, 159);
     box-shadow: 5 5px 10px rgba(0,0,0,.4);
 }
 .card.saleitem{
-  width:18rem;
-  margin-bottom:20px;margin-top:15px;
-  border: 2px solid rgb(48, 41, 41);
+    width:18rem;
+    margin-bottom:20px;
+    margin-top:15px;
+    border: 2px solid rgb(48, 41, 41);
+}
+.card-img-top{
+    height: 280px;
+}
+.card-title{
+     height: 40px;
+}
+.card-text{
+    height: 65px;
+    margin-top: 25px;
 }
 .product{
   background-color: rgb(180, 161, 140);
