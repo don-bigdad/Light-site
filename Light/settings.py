@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'manager.apps.ManagerConfig',
     'client.apps.ClientConfig',
     'base.apps.BaseConfig',
+    'account.apps.AccountConfig',
 ]
 
 MIDDLEWARE = [

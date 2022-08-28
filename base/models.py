@@ -1,3 +1,4 @@
+from django.core.validators import RegexValidator
 from django.db import models
 
 class SaleItem(models.Model):
@@ -51,3 +52,21 @@ class CustomSlider(models.Model):
     right_arrow = models.ImageField(upload_to="slider/right_arrow/%Y-%m-%d")
     left_arrow = models.ImageField(upload_to="slider/left_arrow/%Y-%m-%d")
 
+
+
+class UserForm(models.Model):
+
+    mobile_re = RegexValidator(regex=r"^(\d{3}[- .]?){2}\d{4}$",message="Input number in format xxx xxx xxxx")
+
+    name = models.CharField(max_length=40,db_index=True)
+    phone = models.CharField(max_length=15,validators=[mobile_re,])
+    date = models.DateField()
+    time = models.TimeField()
+    text = models.TextField(max_length=500,blank=True)
+    is_processed = models.BooleanField(default=False)
+
+    class Meta:
+        ordering = ("date","time",)
+
+    def __str__(self):
+        return self.name + "-" + str(self.date)

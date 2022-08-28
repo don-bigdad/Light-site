@@ -19,10 +19,14 @@ from base.views import base
 from manager.views import manager
 from django.conf import settings
 from django.conf.urls.static import static
+from account.views import login_view,logout_view,register_view
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path("login/",login_view,name="login"),
+    path("register",register_view,name="register"),
+    path("logout/",logout_view,name="logout"),
     path('',base),
     path('client/',include("client.urls")),
     path("manager/",manager),

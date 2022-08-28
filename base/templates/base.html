@@ -5,53 +5,6 @@
     {% include "sale.html" %}
     <!--Product section-->
     {% include "product.html" %}
-
     <!--Contact section-->
-    <section style="margin-top:50px;" id="ContactUs">
-      <div style="height:80px ;"></div>
-      <div style="margin-bottom:30px ;" class="section-title text-center">
-        <h2>Have a question? Fill out the form and we will contact you</h2>
-      </div>
-      <div class="container contact text-center">
-        <form>
-          <div class="row">
-            <div style="margin-top:30px ;" class="col">
-              <div class="mb-3 ">
-                <input type="name" class="form-control" id="name" placeholder="Name" required pattern="[A-Za-z]{3,}"
-                  title="minimal lenght 3">
-              </div>
-            </div>
-            <div style="margin-top:30px ;" class="col">
-              <div class="mb-3">
-                <input type="text" class="form-control" name="phone" id="phone" required placeholder="Your Phone"
-                  pattern="[0-9]{10}" title="lenght of phone input must be 10">
-              </div>
-            </div>
-            <h6>Enter the date when we will call you</h6>
-            <div class="col">
-              <input type="date" class="form-control" name="date" required id="date">
-            </div>
-            <div class="col">
-              <input type="time" class="form-control" name="time" id="time">
-            </div>
-            <textarea style="margin:20px ; width: 97%" class="form-control" name="message" rows="5"
-              placeholder="Message theme"></textarea>
-          </div>
-          <div style="text-align:center;margin-top:15px">
-            <button style="width:130px;margin-bottom:20px" type="submit" class="btn btn-primary">Submit</button>
-          </div>
-        </form>
-      </div>
-    </section>
-
-
-      <div style="background-image: url(/img/slider/mailpicture.webp);" class="container-fluid text-center mailing">
-        <div style="height:35px;"></div>
-        <form class="form-input">
-          <h2>Subscribe to our newsletter to be the first to know about new products</h2>
-          <input style="width:350px;margin:auto" type="mail" class="form-control mail-input" id="mailing" placeholder="Enter your email">
-          <button type="submit" class="btn btn-primary mail-but">Submit</button>
-        </form>
-      </div>
-    </section>
+    {% include "Form.html" %}
 {% endblock %}

@@ -162,9 +162,14 @@ svg path {
   box-shadow: 0 5px 10px rgba(0,0,0,.4);
   margin-bottom: 20px;
 }
+.form-control.textarea{
+  margin:20px;
+  width: 97%;
+}
 .mailing{
-  height: 220px;
-  color: white;
+    background-image: url("/static/img/slider/mailpicture.webp");
+    height: 220px;
+    color: white;
 }
 .mail-input{
   width: 200px;
