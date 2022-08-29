@@ -66,7 +66,7 @@ class UserForm(models.Model):
     is_processed = models.BooleanField(default=False)
 
     class Meta:
-        ordering = ("date","time",)
+        ordering = ("time",)
 
     def __str__(self):
         return self.name + "-" + str(self.date)

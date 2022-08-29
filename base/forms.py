@@ -25,11 +25,23 @@ class UserFormQuestion(forms.ModelForm):
 
     }))
 
-    date = forms.DateField(widget=forms.DateField())
-    time = forms.TimeField(widget=forms.TimeField())
+    date = forms.DateField(widget=forms.DateInput(attrs={
+        "type":"date",
+        "class":"form-control",
+        "name":"date",
+        "id":"date",
+
+    }))
+
+    time = forms.TimeField(widget=forms.TimeInput(attrs={
+        "type": "time",
+        "class": "form-control",
+        "name": "time",
+        "id": "time",
+    }))
 
     text = forms.CharField(max_length=500,widget=forms.Textarea(attrs={
-        "сlass":"form-control",
+        "сlass":"form-control textarea",
         "name":"message",
         "rows":"5",
         "placeholder":"Message Theme"
@@ -37,4 +49,4 @@ class UserFormQuestion(forms.ModelForm):
     }))
     class Meta:
         model = UserForm
-        fields = '__all__'
+        fields = "__all__"
