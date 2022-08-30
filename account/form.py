@@ -14,32 +14,32 @@ class RegisterUser(forms.ModelForm):
         "name": "username",
         "placeholder": "Username",
         "required": "",
-        "id": "id_username",
         "pattern": "[A-Za-z0-9]{4,20}",
         "title": "minimal length of user field 4",
     }))
+    email = forms.EmailField(max_length=30, widget=forms.EmailInput(attrs={
+        "type": "email",
+        "name": "email",
+        "required":"",
+        "placeholder":"Email"
+    }))
     password = forms.CharField(max_length=15,widget=forms.PasswordInput(attrs={
         "type": "password",
-        "name": "password",
+        "name": "password1",
         "placeholder": "Password",
         "required": "",
-        "id": "id_password",
         "pattern": "[A-Za-z0-9]{4,20}",
         "title": "minimal length of password field 4",
     }))
-    repeat_password = forms.CharField(max_length=15,widget=forms.PasswordInput({
+    repeat_password = forms.CharField(max_length=15,widget=forms.PasswordInput(attrs={
         "type": "password",
-        "name": "password",
-        "placeholder": "Password",
+        "name": "password2",
+        "placeholder": "Repeat password",
         "required": "",
-        "id": "id_password",
         "pattern": "[A-Za-z0-9]{4,20}",
         "title": "minimal length of password field 4",
     }))
-    email = forms.CharField(max_length=30,widget=forms.EmailInput(attrs={
-        "type":"email",
-        "name":"email"
-    }))
+
 
 
     def clean_repeat_password(self):
@@ -49,3 +49,19 @@ class RegisterUser(forms.ModelForm):
         if self.cleaned_data["password"] != self.cleaned_data["repeat_password"]:
             raise forms.ValidationError("Password don`t match")
         return self.cleaned_data["repeat_password"]
+
+class UserLogin(forms.Form):
+    username = forms.CharField(widget=forms.TextInput(attrs={
+        "type":"text",
+        "name":"username",
+        "required":"",
+        "placeholder":"Username",
+        "class":"form-control",
+    }))
+    password = forms.CharField(widget=forms.PasswordInput(attrs={
+        "type": "password",
+        "name": "password",
+        "required": "",
+        "placeholder": "Password",
+        "class": "form-control",
+    }))

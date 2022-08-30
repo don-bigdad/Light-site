@@ -1,6 +1,9 @@
 from django.shortcuts import render, redirect
 from .models import *
 from .forms import UserFormQuestion
+
+
+
 def base(request):
     if request.method == "POST":
         message = UserFormQuestion(request.POST)
