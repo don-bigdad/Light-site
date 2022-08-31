@@ -6,6 +6,11 @@ admin.site.register(Category)
 admin.site.register(CustomSlider)
 admin.site.register(UserForm)
 
+
+@admin.register(Mailing)
+class MailingAdmin(admin.ModelAdmin):
+    list_display = ("email","mailing_start_date",)
+
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug":("name",),}
