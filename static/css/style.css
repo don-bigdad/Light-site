@@ -64,7 +64,19 @@ svg path {
 .carousel-control-prev-icon{
     background-image: url("/static/img/slider/left-arrow.png");
 }
+html{
 
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  body
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 .saling{
   margin-top:10px;
   border-radius: 40px;
