@@ -1,5 +1,5 @@
 from django import forms
-from .models import UserForm
+from .models import UserForm,Mailing
 
 
 class UserFormQuestion(forms.ModelForm):
@@ -41,7 +41,7 @@ class UserFormQuestion(forms.ModelForm):
     }))
 
     text = forms.CharField(max_length=500,widget=forms.Textarea(attrs={
-        "сlass":"form-control textarea",
+        "class":"form-control textarea",
         "name":"message",
         "rows":"5",
         "placeholder":"Message Theme"
@@ -50,3 +50,16 @@ class UserFormQuestion(forms.ModelForm):
     class Meta:
         model = UserForm
         fields = "__all__"
+
+
+class MailingForm(forms.ModelForm):
+    email = forms.CharField(widget=forms.EmailInput(attrs={
+        "type" : "email",
+        "class" :"form-control mail-input",
+        "id" : "mailing",
+        "placeholder" : "Enter your email",
+    }))
+
+    class Meta:
+        model = Mailing
+        fields = ("email",)

@@ -133,6 +133,7 @@
                 </div>
               </div>
             </div>
+        {% for item in slider %}
             <button style="left:-5%;" class="carousel-control-prev" type="button" data-bs-target="#SalingCarousel"
               data-bs-slide="prev">
               <span style="background-image: url(/img/slider/left-arrow.png) " class="carousel-control-prev-icon"
@@ -140,9 +141,10 @@
             </button>
             <button style="left:88%; position:absolute" class="carousel-control-next" type="button"
               data-bs-target="#SalingCarousel" data-bs-slide="next">
-              <span style="background-image: url(/img/slider/right-arrow.png);" class="carousel-control-next-icon"
+              <span  class="carousel-control-next-icon"
                 aria-hidden="true"></span>
             </button>
+        {% endfor %}
           </div>
         </div>
       </div>

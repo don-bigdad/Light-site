@@ -1,0 +1,11 @@
+ <section>
+      <div class="container-fluid text-center mailing">
+        <div style="height:35px;"></div>
+        <form class="form-input" action="" method="post" role="form">
+            {% csrf_token %}
+          <h2>Subscribe to our newsletter to be the first to know about new products</h2>
+            <div style="width:350px;margin:auto">{{ mailing.email }}</div>
+          <button type="submit" class="btn btn-primary mail-but">Submit</button>
+        </form>
+      </div>
+    </section>

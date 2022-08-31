@@ -58,6 +58,13 @@ svg path {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.carousel-control-next-icon{
+    background-image: url("/static/img/slider/right-arrow.png");
+}
+.carousel-control-prev-icon{
+    background-image: url("/static/img/slider/left-arrow.png");
+}
+
 .saling{
   margin-top:10px;
   border-radius: 40px;
@@ -84,7 +91,7 @@ svg path {
     position: relative;
     margin: 5px;
     border: 5px solid rgb(180, 159, 159);
-    box-shadow: 5 5px 10px rgba(0,0,0,.4);
+    box-shadow: 5px 5px 10px rgba(0,0,0,.4);
 }
 .card.saleitem{
     width:18rem;
@@ -99,8 +106,8 @@ svg path {
      height: 40px;
 }
 .card-text{
-    height: 65px;
-    margin-top: 25px;
+    height: 115px;
+    margin-top: 5px;
 }
 .product{
   background-color: rgb(180, 161, 140);
@@ -131,7 +138,6 @@ svg path {
 }
 .Itempicker{
   display: flex;
-  margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;

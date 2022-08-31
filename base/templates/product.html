@@ -24,18 +24,20 @@
              {% endfor %}
         </div>
       </div>
-<nav aria-label="Page navigation example ">
-  <ul class="pagination justify-content-center">
+<nav  aria-label="Page navigation example ">
+  <ul  class="pagination justify-content-center">
        {% if prod_list.has_previous %}
            <li class="page-item"> <a class="page-link" href="?page=1">First</a></li>
         <li class="page-item"> <a class="page-link" href="?page={{ prod_list.previous_page_number }}">Previous</a></li>
        {% endif %}
+  {% if prod_list.number != 1  %}
         <li class="page-item"><a  class="page-link" href="?page=1">1</a></li>
         <li class="page-item"><a class="page-link" href="?page=2">2</a></li>
         <li class="page-item"><a class="page-link" href="?page=3">3</a></li>
+  {% endif %}
     {% if prod_list.has_next %}
         <li class="page-item"><a class="page-link" href="?page={{ prod_list.next_page_number }}">Next page</a></li>
-        <li class="page-item"> <a class="page-link" href="?page={{ prod_list.paginator.num_pages }}">Last page</a></li>
+        <li style="margin-bottom: 10px" class="page-item"> <a class="page-link" href="?page={{ prod_list.paginator.num_pages }}">Last page</a></li>
     {% endif %}
   </ul>
 </nav>
