@@ -1,0 +1,45 @@
+<!-- CSS only -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">{% load static %}
+    <h1 style="margin-top: 20px" class="text-center">Your shopping cart</h1>
+     <div style="margin-top:50px ;margin-left:50px ;margin-right:50px " class="text-center">
+        <table style="border: 2px solid coral;" class="table">
+            <thead>
+              <tr>
+                <th scope="col">Picture</th>
+                <th scope="col">Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Remove</th>
+                <th scope="col">Unit Price</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+            {% for item in cart %}
+                 {% with product=item.product %}
+              <tr>
+                <th scope="row">
+                    <a href="{{ product.get_absolute_url }}">
+                        <img style="height: 150px;width: 150px" src="{{ product.picture.url }}">
+                    </a>
+                </th>
+                <td>{{ product.name }}</td>
+                <td>{{ item.quantity }}</td>
+                <td>
+                    <a href="{% url "cart:cart_remove" product.id %}"> <button style="border-radius:20px" type="button" class="btn btn-danger">Remove</button></a>
+                </td>
+              <td>{{ item.price }}$</td>
+              <td>
+                  {{ item.total_price }}$
+              </td>
+              </tr>
+                {% endwith %}
+            {% endfor %}
+            </tbody>
+          </table>
+    </div>
+    <div style="margin-bottom: 20px;margin-right: 50px" class="d-flex justify-content-end">
+        <a style="background-color: burlywood;border-radius: 20px;margin-right:10px" href="{% url "manager:back" %}"> <button style="border-radius:20px" type="button" class="btn btn-succes">Continue shopping</button></a>
+        <a style="background-color: lightskyblue;border-radius: 20px" href="#"><button style="border-radius:20px" type="button" class="btn btn-succes">Checkout</button></a>
+    </div>
+

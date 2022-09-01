@@ -1,3 +1,6 @@
+
+{% load static %}
+
  <section class="product" id="Product">
       <div style="height:70px;margin-top:20px;"></div>
       <div class="container text-center header-transparent">
@@ -11,12 +14,12 @@
         <div class="row">
             {% for item in prod_list %}
           <div class="col">
-            <div class="card item" data-item="{{ item.category.name }}" >
-              <img src= {{ item.picture.url }} class="card-img-top" alt="Desk lamp">
+            <div class="card item" data-item="{{ item.category.name }}">
+                <a href="{{ item.get_absolute_url }}"> <img src= {{ item.picture.url }} class="card-img-top" alt="Desk lamp"></a>
               <div class="card-body">
                 <h5 class="card-title">{{item.name}}</h5>
                 <p class="card-text">{{ item.small_description}}</p>
-                <a href="#" class="btn btn-warning price">Add to cart</a>
+                <a href="{% url "cart:cart_add" item.id %}" class="btn btn-warning price">Add to cart</a>
                 <a class="btn btn-primary">{{ item.price }}$</a>
               </div>
             </div>

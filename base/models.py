@@ -1,5 +1,7 @@
 from django.core.validators import RegexValidator
 from django.db import models
+from django.urls import reverse
+
 
 class SaleItem(models.Model):
     name = models.CharField(unique=True,max_length=70,db_index=True)
@@ -40,18 +42,15 @@ class Product(models.Model):
     picture = models.ImageField(upload_to="product/%Y-%m-%d")
     category = models.ForeignKey(Category,on_delete=models.CASCADE)
 
+    def get_absolute_url(self):
+        return reverse("about_product", args=[self.id, self.slug])
+
     class Meta:
         ordering = ("name",)
         index_together = (("id","slug"),)
 
     def __str__(self):
         return self.name
-
-class CustomSlider(models.Model):
-    image = models.ImageField(upload_to="slider/%Y-%m-%d")
-    right_arrow = models.ImageField(upload_to="slider/right_arrow/%Y-%m-%d")
-    left_arrow = models.ImageField(upload_to="slider/left_arrow/%Y-%m-%d")
-
 
 
 class UserForm(models.Model):

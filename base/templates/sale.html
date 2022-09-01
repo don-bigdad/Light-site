@@ -1,4 +1,5 @@
  <!--Sale section-->
+{% load static %}
 <section id="Sale" class="saling parallax">
       <div style="height:60px ;"></div>
       <div  class="container text-center">
@@ -133,18 +134,16 @@
                 </div>
               </div>
             </div>
-        {% for item in slider %}
             <button style="left:-5%;" class="carousel-control-prev" type="button" data-bs-target="#SalingCarousel"
               data-bs-slide="prev">
-              <span  class="carousel-control-prev-icon"
+              <span style="background-image: url({% static "/img/slider/left-arrow.png" %})  "class="carousel-control-prev-icon"
                 aria-hidden="false"></span>
             </button>
             <button style="left:88%; position:absolute" class="carousel-control-next" type="button"
               data-bs-target="#SalingCarousel" data-bs-slide="next">
-              <span  class="carousel-control-next-icon"
+              <span style="background-image: url({% static "/img/slider/right-arrow.png" %})" class="carousel-control-next-icon"
                 aria-hidden="true"></span>
             </button>
-        {% endfor %}
           </div>
         </div>
       </div>
