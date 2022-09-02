@@ -19,15 +19,15 @@
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                      {{item.sale_percent_auto_calculate}}%
                     </span>
-                    <img src={{ item.picture.url }} class="card-img-top" alt="sale item">
+                      <a href="{{ item.get_absolute_url }}">
+                          <img src={{item.picture.url}} class="card-img-top" alt="sale item">
+                      </a>
                     <div class="card-body">
                       <h5 class="card-title">{{item.name}}</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p><br>
+                      <p class="card-text">S{{ item.small_description }}</p><br>
                       <s>{{item.past_price}}$</s>
-                      <strong>{{ item.new_price }}$</strong>
-                        <a href="#" style="margin-left:5px ;width:110px" class="cart-btn btn btn-warning">Add to cart</a>
+                      <strong>{{item.new_price}}$</strong>
+                        <a href="{% url 'cart:cart_add_sale_item' item.id item.slug %}" style="margin-left:5px ;width:110px" class="cart-btn btn btn-warning">Add to cart</a>
                     </div>
                   </div>
                 </div>
@@ -45,15 +45,15 @@
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                      {{item.sale_percent_auto_calculate}}%
                     </span>
-                    <img src={{ item.picture.url}} class="card-img-top" alt="sale item">
+                      <a href="{{ item.get_absolute_url }}">
+                          <img src={{ item.picture.url}} class="card-img-top" alt="sale item">
+                      </a>
                     <div class="card-body">
                       <h5 class="card-title">{{ item.name }}</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p><br>
+                      <p class="card-text">{{ item.small_description }}</p><br>
                       <s>{{ item.past_price }}$</s>
                       <strong>{{ item.new_price }}$</strong>
-                      <a href="#" style="margin-left:5px;width:110px" class="cart-btn btn btn-warning">Add to cart</a>
+                      <a href="{% url 'cart:cart_add_sale_item' item.id item.slug %}" style="margin-left:5px;width:110px" class="cart-btn btn btn-warning">Add to cart</a>
                     </div>
                   </div>
                 </div>

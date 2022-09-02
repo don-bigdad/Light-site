@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from base.views import base,about_product
+from base.views import base, about_product, about_sale_product
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -26,7 +26,7 @@ urlpatterns = [
     path("account/",include("account.urls")),
     path("cart/",include("cart.urls")),
     path("<int:id>/<slug:slug>/",about_product,name="about_product"),
-
+    path("<slug:slug>/",about_sale_product,name="about_sale_product"),
     path('',base),
     path('client/',include("client.urls")),
     path("manager/",include("manager.urls")),

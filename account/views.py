@@ -6,7 +6,6 @@ from django.contrib import messages
 
 
 def register_view(request):
-
     regist = RegisterUser(request.POST or None)
     if User.objects.filter(username=request.POST.get("username")).exists():
         messages.error(request, "User with that name already exists")
@@ -16,7 +15,7 @@ def register_view(request):
         new_user = regist.save(commit=False)
         new_user.set_password(regist.cleaned_data["password"])
         new_user.save()
-        login(request, authenticate())
+        login(request, new_user)
         return redirect("/")
     return render(request,"register.html",context={"regist":regist})
 

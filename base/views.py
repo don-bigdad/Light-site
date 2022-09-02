@@ -48,3 +48,7 @@ def about_product(request,id,slug):
     product = get_object_or_404(Product, id=id, slug=slug)
     return render(request,'product_detail.html',{'product': product})
 
+
+def about_sale_product(request, slug):
+    about_sale_item = get_object_or_404(SaleItem,slug=slug)
+    return render(request,"about_sale_item.html",{'about_sale_item': about_sale_item})
