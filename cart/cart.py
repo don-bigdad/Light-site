@@ -27,8 +27,8 @@ class Cart:
 
     def add_sale_item(self, product, quantity=1, update_quantity=False):
         product_slug = str(product.slug)
-        product_id = str(product.id)
-        if product_slug not in self.cart:
+        product_id = str(product.id+1000)
+        if product_id not in self.cart:
             self.cart[product_id] = {'quantity': 0, 'price': str(product.new_price)}
         if update_quantity:
             self.cart[product_id]['quantity'] = quantity
