@@ -14,7 +14,7 @@
         <div class="row">
             {% for item in prod_list %}
           <div class="col">
-            <div class="card item" data-item="{{ item.category.name }}">
+              <div class="card item" data-item="{{item.category.name}}">
                 <a href="{{ item.get_absolute_url }}"> <img src= {{ item.picture.url }} class="card-img-top" alt="Desk lamp"></a>
               <div class="card-body">
                 <h5 class="card-title">{{item.name}}</h5>

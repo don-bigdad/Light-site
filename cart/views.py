@@ -14,10 +14,10 @@ def cart_add(request, product_id):
     return redirect('cart:cart_detail')
 
 @require_GET
-def cart_add_sale_item(request, sale_item_id,sale_item_slug):
+def cart_add_sale_item(request, sale_item_slug):
     cart = Cart(request)
-    sale_item = get_object_or_404(SaleItem, id=sale_item_id+100,slug=sale_item_slug)
-    cart.add_sale_item(sale_item=sale_item, quantity=1, update_quantity=False)
+    product = get_object_or_404(SaleItem, slug=sale_item_slug,)
+    cart.add_sale_item(product=product, quantity=1, update_quantity=False)
     return redirect('cart:cart_detail')
 
 def cart_remove(request, product_id):

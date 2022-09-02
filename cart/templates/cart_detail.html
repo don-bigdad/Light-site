@@ -26,7 +26,7 @@
                 <td>{{ product.name }}</td>
                 <td>{{ item.quantity }}</td>
                 <td>
-                    <a href="{% url "cart:cart_remove" product.id %}"> <button style="border-radius:20px" type="button" class="btn btn-danger">Remove</button></a>
+                    <a href="{#url "cart:cart_remove" product.id #} # "> <button style="border-radius:20px" type="button" class="btn btn-danger">Remove</button></a>
                 </td>
               <td>{{ item.price }}$</td>
               <td>
@@ -35,9 +35,19 @@
               </tr>
                 {% endwith %}
             {% endfor %}
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="display: flex;justify-content: flex-end;">
+                   Total to pay: ${{ cart.get_total_price }}
+                </td>
+            </tr>
             </tbody>
           </table>
     </div>
+
     <div style="margin-bottom: 20px;margin-right: 50px" class="d-flex justify-content-end">
         <a style="background-color: burlywood;border-radius: 20px;margin-right:10px" href="{% url "manager:back" %}"> <button style="border-radius:20px" type="button" class="btn btn-succes">Continue shopping</button></a>
         <a style="background-color: lightskyblue;border-radius: 20px" href="#"><button style="border-radius:20px" type="button" class="btn btn-succes">Checkout</button></a>

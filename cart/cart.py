@@ -25,16 +25,17 @@ class Cart:
             self.cart[product_id]['quantity'] += quantity
         self.save()
 
-    def add_sale_item(self, sale_item, quantity, update_quantity=False):
-
-        sale_item_id = str(sale_item.id)
-        if sale_item not in self.cart:
-            self.cart[sale_item_id] = {'quantity': 0, 'price': str(sale_item.new_price)}
+    def add_sale_item(self, product, quantity=1, update_quantity=False):
+        product_slug = str(product.slug)
+        product_id = str(product.id)
+        if product_slug not in self.cart:
+            self.cart[product_id] = {'quantity': 0, 'price': str(product.new_price)}
         if update_quantity:
-            self.cart[sale_item_id]['quantity'] = quantity
+            self.cart[product_id]['quantity'] = quantity
         else:
-            self.cart[sale_item]['quantity'] += quantity
+            self.cart[product_id]['quantity'] += quantity
         self.save()
+
 
     def save(self):
         self.session.modified = True
