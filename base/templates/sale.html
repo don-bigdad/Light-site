@@ -24,10 +24,10 @@
                       </a>
                     <div class="card-body">
                       <h5 class="card-title">{{item.name}}</h5>
-                      <p class="card-text">S{{ item.small_description }}</p><br>
+                      <p class="card-text">{{ item.small_description }}</p><br>
                       <s>{{item.past_price}}$</s>
                       <strong>{{item.new_price}}$</strong>
-                        <a href="{% url 'cart:cart_add_sale_item' item.slug %}" style="margin-left:5px ;width:110px" class="cart-btn btn btn-warning">Add to cart</a>
+                        <a href="{% url 'cart:cart_add_sale_item' item.id item.slug %}" style="margin-left:5px ;width:110px" class="cart-btn btn btn-warning">Add to cart</a>
                     </div>
                   </div>
                 </div>
@@ -53,7 +53,7 @@
                       <p class="card-text">{{ item.small_description }}</p><br>
                       <s>{{ item.past_price }}$</s>
                       <strong>{{ item.new_price }}$</strong>
-                      <a href="{% url 'cart:cart_add_sale_item' item.slug%}" style="margin-left:5px;width:110px" class="cart-btn btn btn-warning">Add to cart</a>
+                      <a href="{% url 'cart:cart_add_sale_item' item.id item.slug %}" style="margin-left:5px;width:110px" class="cart-btn btn btn-warning">Add to cart</a>
                     </div>
                   </div>
                 </div>
