@@ -175,16 +175,16 @@ html{
   background:rgb(247, 179, 7);
   color: white;
 }
-.item.hide{
-  display: none;
+.card.item.hide {
+    display: none;
 }
 .contact{
   box-shadow: 0 5px 10px rgba(0,0,0,.4);
   margin-bottom: 20px;
 }
 .form-control.textarea{
-  margin:20px;
-  width: 97%;
+    margin:20px;
+    width: 97%;
 }
 .mailing{
     background-image: url("/static/img/slider/mailpicture.webp");

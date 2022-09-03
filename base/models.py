@@ -66,8 +66,8 @@ class UserForm(models.Model):
 
     name = models.CharField(max_length=40,db_index=True)
     phone = models.CharField(max_length=15,validators=[mobile_re,])
-    date = models.DateField()
-    time = models.TimeField()
+    date = models.DateField(blank=True)
+    time = models.TimeField(blank=True)
     text = models.TextField(max_length=500,blank=True)
     is_processed = models.BooleanField(default=False)
 

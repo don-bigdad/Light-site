@@ -11,24 +11,23 @@
                 <li class="list PickCategory" data-filter="{{ category.name }}">{{ category.name }}</li>
             {% endfor %}
         </ul>
-        <div class="row">
-            {% for item in prod_list %}
-          <div class="col">
-              <div class="card item" data-item="{{item.category.name}}">
-                <a href="{{ item.get_absolute_url }}"> <img src= {{ item.picture.url }} class="card-img-top" alt="Desk lamp"></a>
-              <div class="card-body">
-                <h5 class="card-title">{{item.name}}</h5>
-                <p class="card-text">{{ item.small_description}}</p>
-                <a href="{% url "cart:cart_add" item.id %}" class="btn btn-warning price">Add to cart</a>
-                <a class="btn btn-primary">{{ item.price }}$</a>
-              </div>
-            </div>
-          </div>
-             {% endfor %}
-        </div>
       </div>
-<nav  aria-label="Page navigation example ">
-  <ul  class="pagination">
+        <div style="display: flex;justify-content: center;align-items: center;flex-wrap: wrap">
+             {% for item in prod_list %}
+          <div class="card item" data-item="{{item.category.name}}">
+            <a href="{{ item.get_absolute_url }}"> <img src= {{ item.picture.url }} class="card-img-top" alt="Desk lamp"></a>
+          <div class="card-body">
+            <h5 class="card-title">{{item.name}}</h5>
+            <p class="card-text">{{ item.small_description}}</p>
+            <a href="{% url "cart:cart_add" item.id %}" class="btn btn-warning price">Add to cart</a>
+            <a class="btn btn-primary">{{ item.price }}$</a>
+          </div>
+        </div>
+         {% endfor %}
+        </div>
+
+<nav aria-label="Page navigation example ">
+  <ul class="pagination">
        {% if prod_list.has_previous %}
            <li class="page-item"> <a class="page-link" href="?page=1">First</a></li>
         <li class="page-item"> <a class="page-link" href="?page={{ prod_list.previous_page_number }}">Previous</a></li>

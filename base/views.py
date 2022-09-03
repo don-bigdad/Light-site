@@ -5,7 +5,7 @@ from .models import *
 from .forms import UserFormQuestion, MailingForm
 
 from django.core.paginator import Paginator
-
+from django.contrib import messages
 
 def base(request):
     if request.method == "POST":

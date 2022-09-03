@@ -40,16 +40,19 @@ class UserFormQuestion(forms.ModelForm):
         "id": "time",
     }))
 
-    text = forms.CharField(max_length=500,widget=forms.Textarea(attrs={
+    text = forms.CharField(max_length=100,widget=forms.TextInput(attrs={
         "class":"form-control textarea",
         "name":"message",
         "rows":"5",
+        "pattern":"^[A-Za-z0-9]{1,200}$",
+        "title":"Max length of this field is 200",
         "placeholder":"Message Theme"
 
     }))
     class Meta:
         model = UserForm
         fields = "__all__"
+
 
 
 class MailingForm(forms.ModelForm):
