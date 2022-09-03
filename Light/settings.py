@@ -136,3 +136,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR,"media/")
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CART_SESSION_ID = "cart"
+
+EMAIL_HOST = "smtp.sendgrid.net"
+EMAIL_HOST_USER = "bogdan.maksimenko.2002@gmail.com"
+EMAIL_HOST_PASSWORD = "1234"
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+FROM_EMAIL = "Light_shop@gmail.com"
+EMAIL_ADMIN = "bogdan.maksimenko.2002@gmail.com"

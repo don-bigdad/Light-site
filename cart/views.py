@@ -1,9 +1,12 @@
+from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views.decorators.http import require_GET
 
 from base.models import Product, SaleItem
 
 from .cart import Cart
+from .forms import OrderForm
+
 
 
 @require_GET
@@ -37,4 +40,22 @@ def cart_remove(request, product_id):
 
 def cart_detail(request):
     cart = Cart(request)
-    return render(request, 'cart_detail.html', {'cart': cart})
+    form = OrderForm()
+    if request.method == "POST":
+        order_form = OrderForm(request.POST)
+        if order_form.is_valid():
+            name = request.POST.get("name")
+            phone = request.POST.get("phone")
+            order_form.save()
+            for elem in cart:
+                if elem.get("slug"):
+                    cart_remove_sale_item(request,elem.get("id"),elem.get("slug"))
+                else:
+                    cart_remove(request,elem.get("id"))
+        # email = send_mail()
+        # email.send_email()
+        return redirect("/")
+
+
+    data ={"cart":cart,"form":form}
+    return render(request, 'cart_detail.html', context=data)
