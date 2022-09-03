@@ -27,7 +27,7 @@ var countDownFunction =setInterval(function() {
 
 
     let list = document.querySelectorAll(".list");
-    let item = document.querySelectorAll(".card.item");
+    let itembox = document.querySelectorAll(".item");
 
     for (let i=0;i<list.length;i++){
       list[i].addEventListener("click",function(){
@@ -36,11 +36,17 @@ var countDownFunction =setInterval(function() {
         }
         this.classList.add("active");
 
-        for (let k=0;k<item.length;k++){
-          item[k].classList.remove("active");
-          item[k].classList.add("hide");
+        let dataFilter = this.getAttribute("data-filter");
 
+        for (let k=0;k<itembox.length;k++){
+          itembox[k].classList.remove("active");
+          itembox[k].classList.add("hide");
 
+          if (itembox[k].getAttribute("data-item")==dataFilter ||
+          dataFilter == "all"){
+            itembox[k].classList.remove("hide");
+            itembox[k].classList.add("active");
+          }
         }
       })
 

@@ -119,8 +119,9 @@ html{
 .card-title{
      height: 40px;
 }
+
 .card-text{
-    height: 115px;
+    height: 85px;
     margin-top: 5px;
 }
 .product{
@@ -199,3 +200,5 @@ html{
   border:2px solid gray;
   margin-top: 20px;
 }
+
+

@@ -12,10 +12,10 @@
             {% endfor %}
         </ul>
       </div>
-        <div style="display: flex;justify-content: center;align-items: center;flex-wrap: wrap">
+        <div style="display: flex;justify-content: center;align-items: center;flex-wrap: wrap;text-align: center">
              {% for item in prod_list %}
           <div class="card item" data-item="{{item.category.name}}">
-            <a href="{{ item.get_absolute_url }}"> <img src= {{ item.picture.url }} class="card-img-top" alt="Desk lamp"></a>
+             <img src= {{ item.picture.url }} class="card-img-top" alt="Desk lamp">
           <div class="card-body">
             <h5 class="card-title">{{item.name}}</h5>
             <p class="card-text">{{ item.small_description}}</p>

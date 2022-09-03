@@ -19,9 +19,7 @@
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                      {{item.sale_percent_auto_calculate}}%
                     </span>
-                      <a href="{{ item.get_absolute_url }}">
-                          <img src={{item.picture.url}} class="card-img-top" alt="sale item">
-                      </a>
+                      <img src={{item.picture.url}} class="card-img-top" alt="sale item">
                     <div class="card-body">
                       <h5 class="card-title">{{item.name}}</h5>
                       <p class="card-text">{{ item.small_description }}</p><br>
@@ -45,9 +43,7 @@
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                      {{item.sale_percent_auto_calculate}}%
                     </span>
-                      <a href="{{ item.get_absolute_url }}">
                           <img src={{ item.picture.url}} class="card-img-top" alt="sale item">
-                      </a>
                     <div class="card-body">
                       <h5 class="card-title">{{ item.name }}</h5>
                       <p class="card-text">{{ item.small_description }}</p><br>

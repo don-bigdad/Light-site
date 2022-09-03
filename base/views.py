@@ -1,11 +1,9 @@
-from django.shortcuts import render, redirect, get_object_or_404
-
+from django.shortcuts import render, redirect
 from cart.cart import Cart
 from .models import *
 from .forms import UserFormQuestion, MailingForm
 
 from django.core.paginator import Paginator
-from django.contrib import messages
 
 def base(request):
     if request.method == "POST":
@@ -43,12 +41,3 @@ def base(request):
 
     return render(request,"base.html",context=data)
 
-
-def about_product(request,id,slug):
-    product = get_object_or_404(Product, id=id, slug=slug)
-    return render(request,'product_detail.html',{'product': product})
-
-
-def about_sale_product(request, slug):
-    about_sale_item = get_object_or_404(SaleItem,slug=slug)
-    return render(request,"about_sale_item.html",{'about_sale_item': about_sale_item})
