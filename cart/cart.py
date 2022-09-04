@@ -28,7 +28,7 @@ class Cart:
     def add_sale_item(self, sale_item, quantity=1, update_quantity=False):
         sale_item_id = str(sale_item.id+1000)
         if sale_item_id not in self.cart:
-            self.cart[sale_item_id] = {'quantity': 0, 'price': str(sale_item.new_price),"Sale_item_name":sale_item.name,
+            self.cart[sale_item_id] = {'quantity': 0, 'price': str(sale_item.new_price),"product":sale_item.name,
              "Sale_item_picture":sale_item.picture.url,"slug":sale_item.slug,"id":sale_item.id}
         if update_quantity:
             self.cart[sale_item_id]['quantity'] = quantity
@@ -52,6 +52,8 @@ class Cart:
             del self.cart[sale_item_id]
             self.save()
 
+    def cart_del(self):
+        del self.cart
 
     def get_total_price(self):
         return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())

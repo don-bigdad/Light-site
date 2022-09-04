@@ -1,4 +1,7 @@
+from django.core.mail import send_mail
 from django.shortcuts import render, redirect
+
+from Light.settings import EMAIL_HOST_USER
 from cart.cart import Cart
 from .models import *
 from .forms import UserFormQuestion, MailingForm
@@ -6,13 +9,17 @@ from .forms import UserFormQuestion, MailingForm
 from django.core.paginator import Paginator
 
 def base(request):
+    mailing = MailingForm(request.POST)
     if request.method == "POST":
         message = UserFormQuestion(request.POST)
         if message.is_valid():
             message.save()
             return redirect("/")
-        mail = MailingForm(request.POST)
-        mail.save()
+        if mailing:
+            mailing.save()
+            send_mail("Light magazine","You have successfully subscribed to our news", EMAIL_HOST_USER,
+                      [request.POST.get("email")], fail_silently=False)
+
         return redirect("/")
 
     category = Category.objects.filter(is_visible=True)
@@ -28,7 +35,7 @@ def base(request):
 
     sale_item = SaleItem.objects.filter(is_visible=True)
     form = UserFormQuestion()
-    mailing = MailingForm()
+
     data = {
         "categories":category,
         "product":product,

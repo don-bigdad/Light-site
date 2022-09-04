@@ -30,7 +30,6 @@ class UserFormQuestion(forms.ModelForm):
         "class":"form-control",
         "name":"date",
         "id":"date",
-
     }))
 
     time = forms.TimeField(widget=forms.TimeInput(attrs={

@@ -1,10 +1,13 @@
 from django import forms
 
+
 from cart.models import UserOrderForm
 
 
 
 class OrderForm(forms.ModelForm):
+
+
     name = forms.CharField(max_length=40,widget=forms.TextInput(attrs={
         "type":"name",
         "class":"form-control",
@@ -26,9 +29,15 @@ class OrderForm(forms.ModelForm):
         "title":"Input number in format xxx xxx xxxx",
 
     }))
-
+    order =forms.CharField(empty_value="aaa",max_length=15,widget=forms.TextInput(attrs={
+        "type":"hidden",
+        "class":"form-control",
+        "name":"phone",
+        "id":"phone",
+    }))
 
     class Meta:
         model = UserOrderForm
         fields = "__all__"
+
 

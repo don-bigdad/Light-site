@@ -17,7 +17,7 @@ class RegisterUser(forms.ModelForm):
         "pattern": "[A-Za-z0-9]{4,20}",
         "title": "minimal length of user field 4",
     }))
-    email = forms.EmailField(max_length=30, widget=forms.EmailInput(attrs={
+    email = forms.EmailField(max_length=80, widget=forms.EmailInput(attrs={
         "type": "email",
         "name": "email",
         "required":"",

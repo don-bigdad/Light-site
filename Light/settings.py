@@ -137,11 +137,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CART_SESSION_ID = "cart"
 
-EMAIL_HOST = "smtp.sendgrid.net"
-EMAIL_HOST_USER = "bogdan.maksimenko.2002@gmail.com"
-EMAIL_HOST_PASSWORD = "1234"
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+EMAIL_HOST = "smtp.ukr.net"
+EMAIL_HOST_USER = "walter_white.2002@ukr.net"
+EMAIL_HOST_PASSWORD = "qUhGOGD60WlTTbwy"
+EMAIL_PORT = 465
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
 
 FROM_EMAIL = "Light_shop@gmail.com"
 EMAIL_ADMIN = "bogdan.maksimenko.2002@gmail.com"
