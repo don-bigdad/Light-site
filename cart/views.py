@@ -59,7 +59,7 @@ def cart_detail(request):
                         f'{order_detail}.' \
                         f'Total to pay:{cart.get_total_price()}$\n' \
                         f'With our love Light magazine 🙂 !'
-            order = UserOrderForm.objects.create(
+            UserOrderForm.objects.create(
                 name = order_form.cleaned_data.get("name"),
                 phone = order_form.cleaned_data.get("phone"),
                 order = f'We have a new order {order_detail[13:]},total price is {cart.get_total_price()}!'
@@ -69,9 +69,7 @@ def cart_detail(request):
                     cart_remove_sale_item(request,elem.get("id"),elem.get("slug"))
                 else:
                     cart_remove(request,elem.get("id"))
-
-
-            send_mail("Success order in Light Magazine",order_str,EMAIL_HOST_USER,["bogdan.maksimenko.2002@gmail.com"],fail_silently=False)
+            send_mail("Success order in Light Magazine",order_str,EMAIL_HOST_USER,[request.user.email],fail_silently=False)
 
         return redirect("/")
 
