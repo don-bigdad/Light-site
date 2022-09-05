@@ -75,7 +75,7 @@ def cart_detail(request):
                 else:
                     cart_remove(request, elem.get("id"))
             send_mail("Success order in Light Magazine", order_str, EMAIL_HOST_USER, [request.user.email],
-                      fail_silently=True)
+                      fail_silently=False)
 
         return redirect("/")
 
