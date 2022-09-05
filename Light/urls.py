@@ -26,7 +26,6 @@ urlpatterns = [
     path("account/",include("account.urls")),
     path("cart/",include("cart.urls")),
     path('',base),
-    path('client/',include("client.urls")),
     path("manager/",include("manager.urls")),
 ]
 
