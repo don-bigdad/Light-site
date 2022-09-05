@@ -67,7 +67,7 @@ def cart_detail(request):
             UserOrderForm.objects.create(
                 name=order_form.cleaned_data.get("name"),
                 phone=order_form.cleaned_data.get("phone"),
-                email="somemail@gmail.com",#request.user.mail
+                email=request.user.mail
                 order=f'We have a new order {order_detail[13:]},total price is {cart.get_total_price()}!'
             )
             for elem in cart:
