@@ -3002,7 +3002,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$390000$1zIZXELlCnOK2iBgi6AcMd$CVjmlzEvaibj+GulJJkqWFKEs49vZqIhsE9RYnO+ujc=",
-        "last_login": "2022-09-04T17:39:19.910Z",
+        "last_login": "2022-09-05T14:11:48.015Z",
         "is_superuser": true,
         "username": "admin",
         "first_name": "",
@@ -3112,7 +3112,7 @@
     "pk": 15,
     "fields": {
         "password": "pbkdf2_sha256$390000$nWpThTs4QuikgQb9eKsHec$KJJrCHHBu5zE8SZIbizNFtYg2Z3TGFmzA2TbjcayIx4=",
-        "last_login": "2022-09-05T07:34:53.841Z",
+        "last_login": "2022-09-05T14:10:34.198Z",
         "is_superuser": false,
         "username": "user8",
         "first_name": "",
@@ -3245,6 +3245,14 @@
     "fields": {
         "app_label": "cart",
         "model": "userorderform"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "12u98hpo7yfvial2elag0jk6v0yaqqm1",
+    "fields": {
+        "session_data": ".eJxVjDsOgzAQBe_iOrKMbGyWMn3OgPZHTBKBBKZC3D0gUSTtm3mzmQ7Xkrt10bkbxLSmMrffjZDfOp5AXjg-J8vTWOaB7KnYiy72MYl-7pf7F8i45OPNlAgdVEkCU9Cmib0HTRAc-xAwOgWIxDEw1uBiRMGexNeek9QgekQZ52Labd-_NBc7wQ:1oVD7n:jZGWLpLMiH56Q5nWOdfAQSsbNmVUrSP1H85yIU_wGR8",
+        "expire_date": "2022-09-19T14:30:55.487Z"
     }
 },
 {
@@ -3805,6 +3813,7 @@
     "pk": 64,
     "fields": {
         "order": "We have a new order : Chandelier MAYTONI 27260 - 1 \n,total price is 225.50!",
+        "email": "1",
         "name": "bogdan",
         "phone": "1231231234",
         "is_processed": false
@@ -3815,6 +3824,7 @@
     "pk": 65,
     "fields": {
         "order": "We have a new order : Chandelier MAYTONI 27260 - 1 \n,total price is 225.50!",
+        "email": "1",
         "name": "asd",
         "phone": "1231231234",
         "is_processed": false
@@ -3825,10 +3835,21 @@
     "pk": 66,
     "fields": {
         "order": "We have a new order : Chandelier MAYTONI 31809 - 1 \n,total price is 12.00!",
+        "email": "1",
         "name": "bogdan",
+        "phone": "1231231234",
+        "is_processed": false
+    }
+},
+{
+    "model": "cart.userorderform",
+    "pk": 67,
+    "fields": {
+        "order": "We have a new order : Chandelier MAYTONI 27260 - 1 \n,total price is 225.50!",
+        "email": "bogdan.maksimenko.2002@gmail.com",
+        "name": "asdd",
         "phone": "1231231234",
         "is_processed": false
     }
 }
 ]
-
