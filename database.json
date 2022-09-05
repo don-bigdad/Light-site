@@ -2522,6 +2522,58 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 195,
+    "fields": {
+        "action_time": "2022-09-05T15:14:34.991Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "66",
+        "object_repr": "bogdan",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 196,
+    "fields": {
+        "action_time": "2022-09-05T15:14:52.096Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "67",
+        "object_repr": "asdd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 197,
+    "fields": {
+        "action_time": "2022-09-05T15:14:52.104Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "65",
+        "object_repr": "asd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 198,
+    "fields": {
+        "action_time": "2022-09-05T15:14:52.110Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "64",
+        "object_repr": "bogdan",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -3251,8 +3303,8 @@
     "model": "sessions.session",
     "pk": "12u98hpo7yfvial2elag0jk6v0yaqqm1",
     "fields": {
-        "session_data": ".eJxVjDsOgzAQBe_iOrKMbGyWMn3OgPZHTBKBBKZC3D0gUSTtm3mzmQ7Xkrt10bkbxLSmMrffjZDfOp5AXjg-J8vTWOaB7KnYiy72MYl-7pf7F8i45OPNlAgdVEkCU9Cmib0HTRAc-xAwOgWIxDEw1uBiRMGexNeek9QgekQZ52Labd-_NBc7wQ:1oVD7n:jZGWLpLMiH56Q5nWOdfAQSsbNmVUrSP1H85yIU_wGR8",
-        "expire_date": "2022-09-19T14:30:55.487Z"
+        "session_data": ".eJxVjDsOgzAQBe_iOrKMbGyWMn3OgPZHTBKBBKZC3D0gUSTtm3mzmQ7Xkrt10bkbxLSmMrffjZDfOp5AXjg-J8vTWOaB7KnYiy72MYl-7pf7F8i45OPNlAgdVEkCU9Cmib0HTRAc-xAwOgWIxDEw1uBiRMGexNeek9QgekQZ52Labd-_NBc7wQ:1oVDno:Ku21BBIp4kYAogHHfaMu84gAQlqJu8BHz9gsNwWqAVE",
+        "expire_date": "2022-09-19T15:14:20.048Z"
     }
 },
 {
@@ -3806,50 +3858,6 @@
     "fields": {
         "email": "asd@gmail.com",
         "mailing_start_date": "2022-09-03T11:33:56.338Z"
-    }
-},
-{
-    "model": "cart.userorderform",
-    "pk": 64,
-    "fields": {
-        "order": "We have a new order : Chandelier MAYTONI 27260 - 1 \n,total price is 225.50!",
-        "email": "1",
-        "name": "bogdan",
-        "phone": "1231231234",
-        "is_processed": false
-    }
-},
-{
-    "model": "cart.userorderform",
-    "pk": 65,
-    "fields": {
-        "order": "We have a new order : Chandelier MAYTONI 27260 - 1 \n,total price is 225.50!",
-        "email": "1",
-        "name": "asd",
-        "phone": "1231231234",
-        "is_processed": false
-    }
-},
-{
-    "model": "cart.userorderform",
-    "pk": 66,
-    "fields": {
-        "order": "We have a new order : Chandelier MAYTONI 31809 - 1 \n,total price is 12.00!",
-        "email": "1",
-        "name": "bogdan",
-        "phone": "1231231234",
-        "is_processed": false
-    }
-},
-{
-    "model": "cart.userorderform",
-    "pk": 67,
-    "fields": {
-        "order": "We have a new order : Chandelier MAYTONI 27260 - 1 \n,total price is 225.50!",
-        "email": "bogdan.maksimenko.2002@gmail.com",
-        "name": "asdd",
-        "phone": "1231231234",
-        "is_processed": false
     }
 }
 ]
