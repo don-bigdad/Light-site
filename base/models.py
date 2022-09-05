@@ -12,7 +12,6 @@ class SaleItem(models.Model):
     is_visible = models.BooleanField(default=True)
     position = models.IntegerField(unique=True)
     picture = models.ImageField(upload_to="sale/%Y-%m-%d")
-    price = models.DecimalField(max_digits=10,decimal_places=2)
 
     def get_absolute_url(self):
         return reverse("about_sale_product", args=[self.slug,])
