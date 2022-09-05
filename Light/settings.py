@@ -30,9 +30,18 @@ DB_USER = os.environ.get('DB_USER')
 DB_PASSWORD = os.environ.get('DB_PASSWORD')
 DB_HOST = os.environ.get('DB_HOST')
 DB_PORT = os.environ.get('DB_PORT') or '5432'
+EMAIL_HOST = "smtp.ukr.net"
+EMAIL_HOST_USER = "walter_white.2002@ukr.net"
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+EMAIL_PORT = 465
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
+
+FROM_EMAIL = "Light_shop@gmail.com"
+EMAIL_ADMIN = "bogdan.maksimenko.2002@gmail.com"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['lightsite.herokuapp.com']
 
@@ -159,12 +168,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CART_SESSION_ID = "cart"
 
-EMAIL_HOST = "smtp.ukr.net"
-EMAIL_HOST_USER = "walter_white.2002@ukr.net"
-EMAIL_HOST_PASSWORD = "qUhGOGD60WlTTbwy"
-EMAIL_PORT = 465
-EMAIL_USE_TLS = False
-EMAIL_USE_SSL = True
 
-FROM_EMAIL = "Light_shop@gmail.com"
-EMAIL_ADMIN = "bogdan.maksimenko.2002@gmail.com"
