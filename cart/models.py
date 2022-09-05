@@ -6,7 +6,7 @@ class UserOrderForm(models.Model):
 
     name = models.CharField(max_length=40,db_index=True)
     phone = models.CharField(max_length=15,validators=[mobile_re,])
-    email = models.CharField(max_length=400,auto_created=True,null=True)
+    email = models.CharField(max_length=400,auto_created=True)
     is_processed = models.BooleanField(default=False)
     order = models.TextField(max_length=400,auto_created=True)
 
