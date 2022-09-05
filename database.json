@@ -3303,8 +3303,8 @@
     "model": "sessions.session",
     "pk": "12u98hpo7yfvial2elag0jk6v0yaqqm1",
     "fields": {
-        "session_data": ".eJxVjDsOgzAQBe_iOrKMbGyWMn3OgPZHTBKBBKZC3D0gUSTtm3mzmQ7Xkrt10bkbxLSmMrffjZDfOp5AXjg-J8vTWOaB7KnYiy72MYl-7pf7F8i45OPNlAgdVEkCU9Cmib0HTRAc-xAwOgWIxDEw1uBiRMGexNeek9QgekQZ52Labd-_NBc7wQ:1oVDno:Ku21BBIp4kYAogHHfaMu84gAQlqJu8BHz9gsNwWqAVE",
-        "expire_date": "2022-09-19T15:14:20.048Z"
+        "session_data": ".eJxVjDsOgzAQBe_iOrKMbGyWMn3OgPZHTBKBBKZC3D0gUSTtm3mzmQ7Xkrt10bkbxLSmMrffjZDfOp5AXjg-J8vTWOaB7KnYiy72MYl-7pf7F8i45OPNlAgdVEkCU9Cmib0HTRAc-xAwOgWIxDEw1uBiRMGexNeek9QgekQZ52Labd-_NBc7wQ:1oVDw4:rd0OuEQXQ29vYB0q3M05vc1cBg6OHhixY-HPd2nlsbs",
+        "expire_date": "2022-09-19T15:22:52.233Z"
     }
 },
 {
@@ -3858,6 +3858,17 @@
     "fields": {
         "email": "asd@gmail.com",
         "mailing_start_date": "2022-09-03T11:33:56.338Z"
+    }
+},
+{
+    "model": "cart.userorderform",
+    "pk": 68,
+    "fields": {
+        "order": "We have a new order : Chandelier MAYTONI 27260 - 1 \n,total price is 225.50!",
+        "email": "asdasd@gmail.com",
+        "name": "asd",
+        "phone": "1231231234",
+        "is_processed": false
     }
 }
 ]
