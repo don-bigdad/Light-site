@@ -35,6 +35,13 @@ class OrderForm(forms.ModelForm):
         "name":"phone",
         "id":"phone",
     }))
+    email = forms.CharField(empty_value="aaa", max_length=200, widget=forms.TextInput(attrs={
+        "type": "hidden",
+        "class": "form-control",
+        "name": "email",
+        "id": "email",
+    }))
+
 
     class Meta:
         model = UserOrderForm
