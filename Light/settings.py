@@ -30,15 +30,15 @@ DB_USER = os.environ.get('DB_USER')
 DB_PASSWORD = os.environ.get('DB_PASSWORD')
 DB_HOST = os.environ.get('DB_HOST')
 DB_PORT = os.environ.get('DB_PORT') or '5432'
-EMAIL_HOST = "smtp.ukr.net"
-EMAIL_HOST_USER = "walter_white.2002@ukr.net"
+EMAIL_HOST = os.environ.get('EMAIL_HOST')
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
-EMAIL_PORT = 465
-EMAIL_USE_TLS = False
-EMAIL_USE_SSL = True
+EMAIL_PORT = os.environ.get('EMAIL_PORT')
+EMAIL_USE_TLS = os.environ.get('EMAIL_USE_SSL')
+EMAIL_USE_SSL = os.environ.get('EMAIL_USE_TLS')
 
-FROM_EMAIL = "Light_shop@gmail.com"
-EMAIL_ADMIN = "bogdan.maksimenko.2002@gmail.com"
+FROM_EMAIL = os.environ.get('FROM_EMAIL')
+EMAIL_ADMIN = os.environ.get('EMAIL_ADMIN')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
