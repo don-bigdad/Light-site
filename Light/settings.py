@@ -33,7 +33,7 @@ DB_PORT = os.environ.get('DB_PORT') or '5432'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['lightsite.herokuapp.com',"smtp.ukr.net","walter_white.2002@ukr.net","qUhGOGD60WlTTbwy"]
 
