@@ -17,10 +17,11 @@ def register_view(request):
         new_user.save()
         login(request, new_user)
         return redirect("/")
-    return render(request,"register.html",context={"regist":regist})
+    return render(request, "register.html", context={"regist": regist})
+
 
 def login_view(request):
-    form_login= UserLogin(request.POST or None)
+    form_login = UserLogin(request.POST or None)
     next_get = request.GET.get("next")
     if form_login.is_valid():
         username = request.POST.get("username")
@@ -34,7 +35,6 @@ def login_view(request):
             next_post = request.POST.get("next")
             return redirect(next_get or next_post or "/")
     return render(request, "login.html", context={"form": form_login})
-
 
 
 def logout_view(request):

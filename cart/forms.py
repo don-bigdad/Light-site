@@ -29,7 +29,7 @@ class OrderForm(forms.ModelForm):
         "title":"Input number in format xxx xxx xxxx",
 
     }))
-    order =forms.CharField(empty_value="aaa",max_length=15,widget=forms.TextInput(attrs={
+    order = forms.CharField(empty_value="aaa",max_length=15,widget=forms.TextInput(attrs={
         "type":"hidden",
         "class":"form-control",
         "name":"phone",

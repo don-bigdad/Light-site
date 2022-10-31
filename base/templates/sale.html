@@ -12,15 +12,22 @@
             <div class="carousel-item active">
               <div class="row">
                   {% for item in sale_item %}
-                    {% if item.position >= 5 %}
-                    {% else %}
+                    {% if item.position <= 3 %}
                 <div class="col">
                   <div  class="card saleitem">
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                      {{item.sale_percent_auto_calculate}}%
                     </span>
-                      <img src={{item.picture.url}} class="card-img-top" alt="sale item">
-                    <div class="card-body">
+                      {% if item.position == 0 %}
+                      <img src={% static '/img/slider/saling.jpg' %} class="card-img-top" alt="sale item">
+                        {% elif item.position == 1 %}
+                      <img src={% static '/img/slider/unique.jpeg' %} class="card-img-top" alt="sale item">
+                          {% elif item.position == 2 %}
+                      <img src={% static '/img/slider/unique2.webp' %} class="card-img-top" alt="sale item">
+                          {% elif item.position == 3 %}
+                      <img src={% static '/img/slider/lustra.jpg' %} class="card-img-top" alt="sale item">
+                          {% endif %}
+                          <div class="card-body">
                       <h5 class="card-title">{{item.name}}</h5>
                       <p class="card-text">{{ item.small_description }}</p><br>
                       <s>{{item.past_price}}$</s>
@@ -29,6 +36,7 @@
                     </div>
                   </div>
                 </div>
+                    {% else %}
                       {% endif %}
                   {% endfor %}
               </div>
@@ -36,14 +44,21 @@
             <div class="carousel-item">
               <div class="row">
                   {% for item in sale_item %}
-                    {% if item.position < 5 and item.position <= 9%}
-                    {% else %}
+                    {% if item.position >= 4 and item.position <= 7%}
                 <div class="col">
                   <div class="card saleitem">
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                      {{item.sale_percent_auto_calculate}}%
                     </span>
-                          <img src={{ item.picture.url}} class="card-img-top" alt="sale item">
+                      {% if item.position == 4 %}
+                      <img src={% static '/img/slider/lamp6.jpeg' %} class="card-img-top" alt="sale item">
+                      {% elif item.position == 5 %}
+                      <img src={% static '/img/slider/lamp4.jpeg' %} class="card-img-top" alt="sale item">
+                          {% elif item.position == 6 %}
+                      <img src={% static '/img/slider/lamp3.webp' %} class="card-img-top" alt="sale item">
+                          {% elif item.position == 7 %}
+                      <img src={% static '/img/slider/lamp7.jpeg' %} class="card-img-top" alt="sale item">
+                      {% endif %}
                     <div class="card-body">
                       <h5 class="card-title">{{ item.name }}</h5>
                       <p class="card-text">{{ item.small_description }}</p><br>
@@ -53,10 +68,44 @@
                     </div>
                   </div>
                 </div>
+                    {% else %}
                   {% endif %}
                   {% endfor %}
                 </div>
               </div>
+            <div class="carousel-item">
+              <div class="row">
+                  {% for item in sale_item %}
+                    {% if item.position >= 8 and item.position <= 11%}
+                <div class="col">
+                  <div class="card saleitem">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                     {{item.sale_percent_auto_calculate}}%
+                    </span>
+                      {% if item.position == 8 %}
+                      <img src={% static '/img/slider/lamp9.jpeg' %} class="card-img-top" alt="sale item">
+                      {% elif item.position == 9 %}
+                      <img src={% static '/img/slider/lamp9.jpeg' %} class="card-img-top" alt="sale item">
+                          {% elif item.position == 10 %}
+                      <img src={% static '/img/slider/lamp9.jpeg' %} class="card-img-top" alt="sale item">
+                          {% elif item.position == 11 %}
+                      <img src={% static '/img/slider/lamp9.jpeg' %} class="card-img-top" alt="sale item">
+                      {% endif %}
+                    <div class="card-body">
+                      <h5 class="card-title">{{ item.name }}</h5>
+                      <p class="card-text">{{ item.small_description }}</p><br>
+                      <s>{{ item.past_price }}$</s>
+                      <strong>{{ item.new_price }}$</strong>
+                      <a href="{% url 'cart:cart_add_sale_item' item.id item.slug %}" style="margin-left:5px;width:110px" class="cart-btn btn btn-warning">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                        {% else %}
+                  {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
             <button style="left:-5%;" class="carousel-control-prev" type="button" data-bs-target="#SalingCarousel"
               data-bs-slide="prev">
               <span style="background-image: url({% static "/img/slider/left-arrow.png" %})  "class="carousel-control-prev-icon"
@@ -67,7 +116,6 @@
               <span style="background-image: url({% static "/img/slider/right-arrow.png" %})" class="carousel-control-next-icon"
                 aria-hidden="true"></span>
             </button>
-          </div>
         </div>
       </div>
     </section>
