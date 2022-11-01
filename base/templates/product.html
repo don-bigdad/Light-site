@@ -14,7 +14,46 @@
   <div style="display: flex;justify-content: center;align-items: center;flex-wrap: wrap;text-align: center">
     {% for item in product %}
     <div class="card item" data-item="{{item.category.name}}">
-      <img src={% static '/img/slider/lamp9.jpeg' %} class="card-img-top" alt="Desk lamp">
+    {% if item.id == 1 %}
+        <img src={% static "/img/slider/17737.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 12 %}
+        <img src={% static "/img/slider/26011.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 20 %}
+        <img src={% static "/img/slider/38351.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 7 %}
+        <img src={% static "/img/slider/16036.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 11 %}
+        <img src={% static "/img/slider/37772.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 9 %}
+        <img src={% static "/img/slider/27177.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 8 %}
+        <img src={% static "/img/slider/84941.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 10 %}
+        <img src={% static "/img/slider/78322.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 5 %}
+        <img src={% static "/img/slider/25312.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 6 %}
+        <img src={% static "/img/slider/93380.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 13 %}
+        <img src={% static "/img/slider/95131.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 15 %}
+        <img src={% static "/img/slider/96437.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 14 %}
+        <img src={% static "/img/slider/47918.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 21 %}
+        <img src={% static "/img/slider/92720.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 16 %}
+        <img src={% static "/img/slider/35930.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 3 %}
+        <img src={% static "/img/slider/35982.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 18 %}
+        <img src={% static "/img/slider/40629.png" %} class="card-img-top" alt="Desk lamp">
+        {% elif item.id == 17 %}
+        <img src={% static "/img/slider/84450.png" %} class="card-img-top" alt="Desk lamp">
+        {% endif %}
+    {% if item.id > 21 %}
+        <img src={% if item.picture %}{{ item.picture.url }}{% else %} {% static "img/slider/Screenshot-2018-12-16-at-21.06.29.png" %}{% endif %} class="card-img-top" alt="Desk lamp">
+    {% endif %}
       <div class="card-body">
         <h5 class="card-title">{{item.name}}</h5>
         <p class="card-text">{{ item.small_description}}</p>

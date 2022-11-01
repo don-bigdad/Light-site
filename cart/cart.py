@@ -29,7 +29,7 @@ class Cart:
         sale_item_id = str(sale_item.id+1000)
         if sale_item_id not in self.cart:
             self.cart[sale_item_id] = {'quantity': 0, 'price': str(sale_item.new_price),"product":sale_item.name,
-             "Sale_item_picture":sale_item.picture.url,"slug":sale_item.slug,"id":sale_item.id}
+             "Sale_item_picture":sale_item.picture.url,"slug":sale_item.slug,"id":sale_item.id,"position":sale_item.position}
         if update_quantity:
             self.cart[sale_item_id]['quantity'] = quantity
         else:

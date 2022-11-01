@@ -1,10 +1,10 @@
-# from django.core.mail import send_mail
+from django.core.mail import send_mail
 
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views.decorators.http import require_GET
 from django.contrib.auth.decorators import login_required
 
-# from Light.settings import EMAIL_HOST_USER
+from Light.settings import EMAIL_HOST_USER
 from base.models import Product, SaleItem
 
 from .cart import Cart
@@ -74,8 +74,8 @@ def cart_detail(request):
                     cart_remove_sale_item(request, elem.get("id"), elem.get("slug"))
                 else:
                     cart_remove(request, elem.get("id"))
-            # send_mail("Success order in Light Magazine", order_str, EMAIL_HOST_USER, [request.user.email],
-            #           fail_silently=False)
+            send_mail("Success order in Light Magazine", order_str, EMAIL_HOST_USER, [request.user.email,],
+                        fail_silently=False)
 
         return redirect("/")
 

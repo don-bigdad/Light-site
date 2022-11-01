@@ -1,7 +1,7 @@
 from django.core.mail import send_mail
 from django.shortcuts import render, redirect
 
-# from Light.settings import EMAIL_HOST_USER
+from Light.settings import EMAIL_HOST_USER
 from cart.cart import Cart
 from .models import *
 from .forms import UserFormQuestion, MailingForm
@@ -18,8 +18,8 @@ def base(request):
             return redirect("/")
         if mailing:
             mailing.save()
-        #     send_mail("Light magazine", "You have successfully subscribed to our news", EMAIL_HOST_USER,
-        #               [request.POST.get("email")], fail_silently=False)
+            send_mail("Light magazine", "You have successfully subscribed to our news", EMAIL_HOST_USER,
+                      [request.POST.get("email")], fail_silently=False)
 
         return redirect("/")
 
@@ -45,6 +45,4 @@ def base(request):
         "mailing": mailing,
         "cart": cart,
     }
-    for item in product:
-        print(item.id)
     return render(request, "base.html", context=data)

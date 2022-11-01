@@ -46,6 +46,7 @@ class Product(models.Model):
     picture = models.ImageField(upload_to="product/%Y-%m-%d")
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
+
     def get_absolute_url(self):
         return reverse("about_product", args=[self.id, self.slug])
 
