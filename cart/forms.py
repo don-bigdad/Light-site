@@ -7,15 +7,13 @@ from cart.models import UserOrderForm
 
 class OrderForm(forms.ModelForm):
 
-
-    name = forms.CharField(max_length=40,widget=forms.TextInput(attrs={
+    name = forms.CharField(max_length=100,widget=forms.TextInput(attrs={
         "type":"name",
         "class":"form-control",
         "id":"name",
         "placeholder":"Name",
         "required":"",
-        "pattern":"[A-Za-z]{3,}",
-        "title":"minimal lenght 3"
+        "title":"Input you name"
     }))
 
     phone = forms.CharField(max_length=15,widget=forms.TextInput(attrs={
