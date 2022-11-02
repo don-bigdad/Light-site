@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45bdcf00-7a6d-4b2b-8661-1ae34593fefb" name="Changes" comment="." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="origin" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="7535c1e0be5afac56d0d2b68be2e7e8d994c0c88" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DtF0zGYyMZNi1h4goCD82yBpiS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Light&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Light\static" />
+      <recent name="C:\Light\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Light" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Light" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Light.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45bdcf00-7a6d-4b2b-8661-1ae34593fefb" name="Changes" comment="" />
+      <created>1661510254220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661510254220</updated>
+      <workItem from="1661510274100" duration="2446000" />
+      <workItem from="1661513278355" duration="6560000" />
+      <workItem from="1661588164204" duration="5851000" />
+      <workItem from="1661599617980" duration="8790000" />
+      <workItem from="1661625472575" duration="3077000" />
+      <workItem from="1661628660466" duration="93000" />
+      <workItem from="1661628764628" duration="468000" />
+      <workItem from="1661629247809" duration="641000" />
+      <workItem from="1661629907192" duration="823000" />
+      <workItem from="1661630747445" duration="1547000" />
+      <workItem from="1661676055459" duration="3713000" />
+      <workItem from="1661689156167" duration="5642000" />
+      <workItem from="1661694862567" duration="734000" />
+      <workItem from="1661778894686" duration="3055000" />
+      <workItem from="1661784907768" duration="12958000" />
+      <workItem from="1661854855872" duration="5612000" />
+      <workItem from="1661860725150" duration="6051000" />
+      <workItem from="1661869958725" duration="62000" />
+      <workItem from="1661884939075" duration="6806000" />
+      <workItem from="1661932895407" duration="6815000" />
+      <workItem from="1661972754404" duration="451000" />
+      <workItem from="1661973304601" duration="547000" />
+      <workItem from="1661973867078" duration="148000" />
+      <workItem from="1661974174356" duration="36000" />
+      <workItem from="1661974223251" duration="165000" />
+      <workItem from="1661974400509" duration="6623000" />
+      <workItem from="1662020462278" duration="730000" />
+      <workItem from="1662021671494" duration="2730000" />
+      <workItem from="1662025158386" duration="43000" />
+      <workItem from="1662025203030" duration="8000" />
+      <workItem from="1662025224045" duration="236000" />
+      <workItem from="1662025463723" duration="101000" />
+      <workItem from="1662025566227" duration="151000" />
+      <workItem from="1662025788715" duration="27584000" />
+      <workItem from="1662057285158" duration="791000" />
+      <workItem from="1662063350804" duration="2625000" />
+      <workItem from="1662101269367" duration="273000" />
+      <workItem from="1662101555823" duration="3049000" />
+      <workItem from="1662104652961" duration="171000" />
+      <workItem from="1662121323367" duration="7343000" />
+      <workItem from="1662133643049" duration="8693000" />
+      <workItem from="1662142443426" duration="908000" />
+      <workItem from="1662149320908" duration="56000" />
+      <workItem from="1662197649772" duration="5665000" />
+      <workItem from="1662204399427" duration="261000" />
+      <workItem from="1662204673076" duration="169000" />
+      <workItem from="1662207838745" duration="3023000" />
+      <workItem from="1662210925784" duration="3211000" />
+      <workItem from="1662224999396" duration="4871000" />
+      <workItem from="1662231301927" duration="10221000" />
+      <workItem from="1662288869811" duration="14446000" />
+      <workItem from="1662306932310" duration="520000" />
+      <workItem from="1662307485462" duration="2847000" />
+      <workItem from="1662310429873" duration="2542000" />
+      <workItem from="1662313111976" duration="107000" />
+      <workItem from="1662363177876" duration="1794000" />
+      <workItem from="1662365749451" duration="13450000" />
+      <workItem from="1662388187722" duration="2765000" />
+      <workItem from="1662390992057" duration="901000" />
+      <workItem from="1662391914079" duration="884000" />
+      <workItem from="1662721838203" duration="81000" />
+      <workItem from="1667247754852" duration="363000" />
+      <workItem from="1667250276133" duration="89000" />
+      <workItem from="1667250380570" duration="9727000" />
+      <workItem from="1667260279394" duration="558000" />
+      <workItem from="1667260853766" duration="344000" />
+      <workItem from="1667261213045" duration="276000" />
+      <workItem from="1667261507738" duration="21000" />
+      <workItem from="1667261747739" duration="150000" />
+      <workItem from="1667261915638" duration="633000" />
+      <workItem from="1667322969071" duration="7466000" />
+      <workItem from="1667330521259" duration="4293000" />
+      <workItem from="1667385973036" duration="9834000" />
+      <workItem from="1667411414041" duration="2102000" />
+    </task>
+    <task id="LOCAL-00001" summary="&#10;configured the output of the main file, created a couple of applications">
+      <created>1661519665085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661519665085</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&#10;configured the output of the main file, created a couple of applications">
+      <created>1661519867156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661519867156</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix arrows and also close some tag">
+      <created>1661520257504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661520257504</updated>
+    </task>
+    <task id="LOCAL-00004" summary="I set up the template engine for the normal display of items, like a breakpoint">
+      <created>1661604164305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661604164305</updated>
+    </task>
+    <task id="LOCAL-00005" summary="another chekpoint">
+      <created>1661629501914</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661629501914</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chekpoint with contact form">
+      <created>1661695120504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661695120504</updated>
+    </task>
+    <task id="LOCAL-00007" summary="regiter form is done">
+      <created>1661804395174</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661804395174</updated>
+    </task>
+    <task id="LOCAL-00008" summary="full done registration/login/manager page/buttons only for manager etc.">
+      <created>1661866574692</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661866574692</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pagination.Problem is no sorted by category when click on page num">
+      <created>1661892202297</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661892202297</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DB add descrip +style">
+      <created>1661979612310</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661979612310</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test">
+      <created>1661980827901</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661980827901</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hide overflow-y sroll pannel">
+      <created>1661981085101</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661981085101</updated>
+    </task>
+    <task id="LOCAL-00013" summary="create session and product with cart pages">
+      <created>1662053144633</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662053144633</updated>
+    </task>
+    <task id="LOCAL-00014" summary="can`t appended product from sale section to cart (chekpoint)">
+      <created>1662122946346</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662122946346</updated>
+    </task>
+    <task id="LOCAL-00015" summary="no image no name in cart">
+      <created>1662128706900</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662128706900</updated>
+    </task>
+    <task id="LOCAL-00016" summary="bag fix">
+      <created>1662129212265</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662129212265</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix cart remove button">
+      <created>1662149346484</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662149346484</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix cart remove button">
+      <created>1662197660115</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662197660115</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix item displayed in product section and also form text field fix exactly len of text field">
+      <created>1662214161632</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662214161632</updated>
+    </task>
+    <task id="LOCAL-00020" summary="need to do popup form to submiting order and ready for deployed">
+      <created>1662230123673</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662230123673</updated>
+    </task>
+    <task id="LOCAL-00021" summary="manager page for all of orders and also form in cart to send mail with all cart items">
+      <created>1662239000301</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1662239000301</updated>
+    </task>
+    <task id="LOCAL-00022" summary="only one things to left .is get email from autohorized user and send him email about order details">
+      <created>1662310354041</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1662310354041</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ready for deploy">
+      <created>1662313206476</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1662313206476</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ready for deploy">
+      <created>1662363387306</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1662363387306</updated>
+    </task>
+    <task id="LOCAL-00025" summary="ready for deploy">
+      <created>1662363888140</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1662363888140</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ready for deploy">
+      <created>1662364522952</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1662364522952</updated>
+    </task>
+    <task id="LOCAL-00027" summary="pep 8 code ready for deploy">
+      <created>1662364845670</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1662364845670</updated>
+    </task>
+    <task id="LOCAL-00028" summary="deploy">
+      <created>1662378225041</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1662378225041</updated>
+    </task>
+    <task id="LOCAL-00029" summary="deploy">
+      <created>1662392496163</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1662392496164</updated>
+    </task>
+    <task id="LOCAL-00030" summary="my road to deploy my project with all picture,without the way to change picture form admin panel">
+      <created>1667259862982</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667259862982</updated>
+    </task>
+    <task id="LOCAL-00031" summary="test">
+      <created>1667260430404</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1667260430404</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fixup! my road to deploy my project with all picture,without the way to change picture form admin panel">
+      <created>1667260882125</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1667260882125</updated>
+    </task>
+    <task id="LOCAL-00033" summary="start work for succesful display picture on heroku">
+      <created>1667261139020</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1667261139020</updated>
+    </task>
+    <task id="LOCAL-00034" summary="finish work with picture of product wanna fix mail sending">
+      <created>1667335579674</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1667335579674</updated>
+    </task>
+    <task id="LOCAL-00035" summary="ready for deploy">
+      <created>1667395507242</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1667395507242</updated>
+    </task>
+    <task id="LOCAL-00036" summary="redid reviews">
+      <created>1667412226676</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1667412226676</updated>
+    </task>
+    <task id="LOCAL-00037" summary=".">
+      <created>1667412725490</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1667412725490</updated>
+    </task>
+    <task id="LOCAL-00038" summary=".">
+      <created>1667413526949</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1667413526949</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chekpoint with contact form" />
+    <MESSAGE value="regiter form is done" />
+    <MESSAGE value="full done registration/login/manager page/buttons only for manager etc." />
+    <MESSAGE value="pagination.Problem is no sorted by category when click on page num" />
+    <MESSAGE value="DB add descrip +style" />
+    <MESSAGE value="hide overflow-y sroll pannel" />
+    <MESSAGE value="create session and product with cart pages" />
+    <MESSAGE value="can`t appended product from sale section to cart (chekpoint)" />
+    <MESSAGE value="no image no name in cart" />
+    <MESSAGE value="bag fix" />
+    <MESSAGE value="fix cart remove button" />
+    <MESSAGE value="fix item displayed in product section and also form text field fix exactly len of text field" />
+    <MESSAGE value="need to do popup form to submiting order and ready for deployed" />
+    <MESSAGE value="manager page for all of orders and also form in cart to send mail with all cart items" />
+    <MESSAGE value="only one things to left .is get email from autohorized user and send him email about order details" />
+    <MESSAGE value="pep 8 code ready for deploy" />
+    <MESSAGE value="deploy" />
+    <MESSAGE value="my road to deploy my project with all picture,without the way to change picture form admin panel" />
+    <MESSAGE value="test" />
+    <MESSAGE value="fixup! my road to deploy my project with all picture,without the way to change picture form admin panel" />
+    <MESSAGE value="start work for succesful display picture on heroku" />
+    <MESSAGE value="finish work with picture of product wanna fix mail sending" />
+    <MESSAGE value="ready for deploy" />
+    <MESSAGE value="redid reviews" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
