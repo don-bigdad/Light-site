@@ -26,7 +26,6 @@ def login_view(request):
     if form_login.is_valid():
         username = request.POST.get("username")
         password = request.POST.get("password")
-
         user = authenticate(username=username, password=password)
         if user is None:
             messages.error(request, "Invalid password or username")

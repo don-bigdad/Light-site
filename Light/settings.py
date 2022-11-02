@@ -138,10 +138,11 @@ CART_SESSION_ID = "cart"
 
 EMAIL_HOST = "smtp.ukr.net"
 EMAIL_HOST_USER = "walter_white.2002@ukr.net"
-EMAIL_HOST_PASSWORD = "qUhGOGD60WlTTbwy"
-EMAIL_PORT = 465
+EMAIL_HOST_PASSWORD = "a032IA51OS1Ws39W"
+EMAIL_HOST_PASSWORD1 = "qUhGOGD60WlTTbwy"
+EMAIL_PORT = 2525
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
-FROM_EMAIL = "Light_shop@gmail.com"
+FROM_EMAIL = "walter_white.2002@ukr.net"
 EMAIL_ADMIN = "bogdan.maksimenko.2002@gmail.com"

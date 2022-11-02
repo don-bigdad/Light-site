@@ -10,7 +10,7 @@ from base.models import Product, SaleItem
 from .cart import Cart
 from .forms import OrderForm
 from .models import UserOrderForm
-
+from django.contrib import messages
 
 @require_GET
 def cart_add(request, product_id):
@@ -59,23 +59,28 @@ def cart_detail(request):
             order_detail = "Your order is:"
             for elem in cart:
                 order_detail += f" {elem.get('product')} - {elem.get('quantity')} \n"
-            order_str = f'Dear {order_form.cleaned_data["name"]} thanks for order in our magazine.Our manager will contact you later ' \
-                        f'Detail:' \
-                        f'{order_detail}.' \
-                        f'Total to pay:{cart.get_total_price()}$\n' \
+            order_str = f'Dear {order_form.cleaned_data["name"]} thanks for order in our magazine.Our manager will contact you later \n' \
+                        f'Detail: {order_detail}. \n Total to pay:{cart.get_total_price()}$\n' \
+                        f'if our manager does not contact you within two hours,' \
+                        f'check the number you specified during checkout {order_form.cleaned_data["phone"]}\n'\
                         f'With our love Light magazine 🙂 !'
             UserOrderForm.objects.create(
                 name=order_form.cleaned_data.get("name"),
                 phone=order_form.cleaned_data.get("phone"),
-                order=f'We have a new order {order_detail},total price is {cart.get_total_price()}!',
+                order=f'We have a new order:{order_form.cleaned_data.get("name")}-{order_form.cleaned_data.get("phone")}'
+                      f'\n His order,total price is {cart.get_total_price()}!',
             )
             for elem in cart:
                 if elem.get("slug"):
                     cart_remove_sale_item(request, elem.get("id"), elem.get("slug"))
                 else:
                     cart_remove(request, elem.get("id"))
-            send_mail("Success order in Light Magazine", order_str, EMAIL_HOST_USER, [request.user.email,],
-                        fail_silently=False)
+            mail=send_mail("Success order in Light Shop", order_str, EMAIL_HOST_USER, [request.user.email,],
+                      fail_silently = False)
+            if mail:
+                messages.success(request,"Thanks for order,our manager will contact you latter.")
+            else:
+                messages.error(request,"Something wrong")
 
         return redirect("/")
 

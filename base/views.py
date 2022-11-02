@@ -18,7 +18,7 @@ def base(request):
             return redirect("/")
         if mailing:
             mailing.save()
-            send_mail("Light magazine", "You have successfully subscribed to our news", EMAIL_HOST_USER,
+            send_mail("Light magazine", "You have successfully subscribed to our news", "walter_white.2002@ukr.net",
                       [request.POST.get("email")], fail_silently=False)
 
         return redirect("/")
