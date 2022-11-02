@@ -19,7 +19,7 @@ def base(request):
         if mailing:
             mailing.save()
             send_mail("Light magazine", "You have successfully subscribed to our news", "walter_white.2002@ukr.net",
-                      [request.POST.get("email")], fail_silently=False)
+                      [request.POST.get("email")], fail_silently=True)
 
         return redirect("/")
 
