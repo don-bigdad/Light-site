@@ -4485,6 +4485,62 @@
     }
 },
 {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "base",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "base",
+        "model": "saleitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "base",
+        "model": "product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "base",
+        "model": "customslider"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "base",
+        "model": "userform"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "base",
+        "model": "mailing"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "cart",
+        "model": "userorderform"
+    }
+},
+{
     "model": "sessions.session",
     "pk": "12u98hpo7yfvial2elag0jk6v0yaqqm1",
     "fields": {
@@ -4555,579 +4611,4 @@
         "session_data": ".eJxVjEEOgyAQRe8y64YwCAIuu_cMZoCh2DaaoK6Md29N3Lj9772_Q6S6QrcfDxhoW8uwLVyHMUEHaOE2Boofnk6S3jS9ZhHnaa1jEKciLrqIfk78fV7u7aDQUv41kfbGxIy24UCoggte50a2LXqLziOT5MQm6xytk6SUYt2ik0EZpWOC4wdTODsa:1oqhOy:XDhrQ9OtefVGDsrEed5C2ydsn_a8r0HAppvjiXbpV-w",
         "expire_date": "2022-11-17T21:05:28.717Z"
     }
-},
-{
-    "model": "base.saleitem",
-    "pk": 1,
-    "fields": {
-        "name": "Chandelier nga FREYA 12268",
-        "slug": "chandelier-nga-freya-12268",
-        "small_description": "Fastening type:\r\nstele hook\r\nDzherelo light:\r\n5 x E14 (max.60.00W), bathed in okremo\r\nDimensions:\r\n97.4 c",
-        "past_price": "22.00",
-        "new_price": "14.00",
-        "is_visible": true,
-        "position": 0,
-        "picture": "sale/2022-08-27/12268b0_big_bcLptJm.jpg"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 2,
-    "fields": {
-        "name": "Chandelier MAYTONI 27260",
-        "slug": "Chandelier-MAYTONI-27260",
-        "small_description": "Fastening type:\r\nmounting plate\r\nDzherelo light:\r\n6 x E14 (max.40.00W), bathed in okremo\r\nDimensions:\r\n81.5 cm\r\n \r\n100 cm",
-        "past_price": "350.00",
-        "new_price": "225.50",
-        "is_visible": true,
-        "position": 1,
-        "picture": "sale/2022-09-01/27260b0_big_hwuMrD5.jpg"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 3,
-    "fields": {
-        "name": "Chandelier MAYTONI 31809",
-        "slug": "Chandelier-MAYTONI-31809",
-        "small_description": "Fastening type:\r\nmounting plate\r\nDzherelo light:\r\n2 x E14 (max.40.00W), bathed in okremo\r\nDimensions:\r\n76 cm\r\n \r\n95 cm\r\n \r\n15 cm",
-        "past_price": "22.00",
-        "new_price": "12.00",
-        "is_visible": true,
-        "position": 2,
-        "picture": "sale/2022-08-27/31809b0_big_cuskCyl.jpg"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 4,
-    "fields": {
-        "name": "Bath lamp NOWODVORSKI 37544",
-        "slug": "Bath-lamp-NOWODVORSKI-37544",
-        "small_description": "Fastening type:\r\nmounting plate\r\nDzherelo light:\r\n1 x G9 (max.25.00W), \r\nDimensions:\r\n17.7",
-        "past_price": "11.00",
-        "new_price": "4.00",
-        "is_visible": true,
-        "position": 3,
-        "picture": "sale/2022-09-01/37544b0_big_VSPk2z1.jpg"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 5,
-    "fields": {
-        "name": "Street lamp NOWODVORSKI 84933",
-        "slug": "Street-amp-NOWODVORSKI-84933",
-        "small_description": "Fastening type:\r\nmounting plate\r\nDzherelo light:\r\n1 x E27 (max.60.00W), bathed in okremo\r\nDimensions:\r\n38 cm\r\n \r\n25 cm",
-        "past_price": "31.00",
-        "new_price": "14.00",
-        "is_visible": true,
-        "position": 4,
-        "picture": "sale/2022-08-27/84933b0_big_8MhS3Yz.jpg"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 6,
-    "fields": {
-        "name": "Street lamp NOWODVORSKI 58255",
-        "slug": "street-lamp-nowodvorski-58255",
-        "small_description": "Fastening type:\r\nmounting plate\r\nDzherelo light:\r\n1 x E27 (max.60.00W), bathed in okremo\r\nDimensions:\r\n46 cm\r\n \r\n18 cm\r\n \r\n28 cm",
-        "past_price": "110.00",
-        "new_price": "100.00",
-        "is_visible": true,
-        "position": 5,
-        "picture": "sale/2022-08-27/58255b0_big_t3SxQnC.jpg"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 7,
-    "fields": {
-        "name": "Chandelier WUNDERLICHT 40383",
-        "slug": "chandelier-wunderlicht-40383",
-        "small_description": "Fastening type:\r\nmounting plate\r\nDzherelo light:\r\n6 x E14 (max.40.00W), bathed in okremo\r\nDimensions:\r\n30 cm\r\n \r\n91 cm",
-        "past_price": "110.00",
-        "new_price": "90.00",
-        "is_visible": true,
-        "position": 6,
-        "picture": "sale/2022-08-27/40383b0_big.jpg"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 8,
-    "fields": {
-        "name": "Chandelier WUNDERLICHT 40412",
-        "slug": "chandelier-wunderlicht-40412",
-        "small_description": "Fastening type:\r\nmounting plate\r\nDzherelo light:\r\n6 x E14 (max.40.00W), bathed in okremo\r\nDimensions:\r\n38 cm\r\n \r\n63 cm",
-        "past_price": "70.00",
-        "new_price": "66.20",
-        "is_visible": true,
-        "position": 7,
-        "picture": "sale/2022-08-27/40412b0_big.jpg"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 10,
-    "fields": {
-        "name": "Spotlight ARTGLASS 38761",
-        "slug": "spotlight-artglass-38761",
-        "small_description": "Mount type:\r\nfixing spring\r\nLight source:\r\n1 x GU5.3 (max.5.00W), sold separately\r\nDimensions:\r\n9 cm\r\n \r\n12 cm",
-        "past_price": "123.00",
-        "new_price": "58.00",
-        "is_visible": true,
-        "position": 8,
-        "picture": "sale/2022-11-01/Снимок_экрана_2022-04-21_165538.png"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 14,
-    "fields": {
-        "name": "Spotlight ARTGLASS 28831",
-        "slug": "spotlight-artglass-28831",
-        "small_description": "Mount type:\r\nmounting plate\r\nLight source:\r\n1 x E14 (max.40.00W), sold separately\r\nDimensions:\r\n14.5 cm\r\n \r\n11.5 cm",
-        "past_price": "450.00",
-        "new_price": "299.00",
-        "is_visible": true,
-        "position": 9,
-        "picture": "sale/2022-11-01/Screenshot-2018-12-16-at-21.06.29.png"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 15,
-    "fields": {
-        "name": "Spotlight ARTGLASS 38760",
-        "slug": "spotlight-artglass-38760",
-        "small_description": "Mount type:\r\nfixing spring\r\nLight source:\r\n1 x GU5.3 (max.5.00W), sold separately\r\nDimensions:\r\n11 cm\r\n \r\n12 cm",
-        "past_price": "399.00",
-        "new_price": "240.00",
-        "is_visible": true,
-        "position": 10,
-        "picture": "sale/2022-11-01/Screenshot-2018-12-16-at-21.06.29_LeMUQhB.png"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 16,
-    "fields": {
-        "name": "Spotlight ARTGLASS 39453",
-        "slug": "spotlight-artglass-39453",
-        "small_description": "Mount type:\r\nfixing spring\r\nLight source:\r\n1 x GU5.3 (max.5.00W), sold separately\r\nDimensions:\r\n28 cm\r\n \r\n12 cm",
-        "past_price": "700.00",
-        "new_price": "565.00",
-        "is_visible": true,
-        "position": 11,
-        "picture": "sale/2022-11-01/Screenshot-2018-12-16-at-21.06.29_NEOZyij.png"
-    }
-},
-{
-    "model": "base.category",
-    "pk": 1,
-    "fields": {
-        "name": "Lamp",
-        "position": 1,
-        "is_visible": true
-    }
-},
-{
-    "model": "base.category",
-    "pk": 2,
-    "fields": {
-        "name": "Desk Lamp",
-        "position": 2,
-        "is_visible": true
-    }
-},
-{
-    "model": "base.category",
-    "pk": 3,
-    "fields": {
-        "name": "Сhandeliers",
-        "position": 3,
-        "is_visible": true
-    }
-},
-{
-    "model": "base.category",
-    "pk": 4,
-    "fields": {
-        "name": "ECO",
-        "position": 4,
-        "is_visible": false
-    }
-},
-{
-    "model": "base.category",
-    "pk": 5,
-    "fields": {
-        "name": "Floor lamp",
-        "position": 5,
-        "is_visible": true
-    }
-},
-{
-    "model": "base.product",
-    "pk": 1,
-    "fields": {
-        "name": "Chandelier nga MAYTONI 17737",
-        "slug": "chandelier-nga-maytoni-17737",
-        "small_description": "Fastening type:\r\nmounting bar\r\nLight:\r\n1 x GU10 (max.50.00W), purchased separately\r\nDimensions:\r\n158 cm\r\n  10 s",
-        "price": "25.50",
-        "is_visible": true,
-        "picture": "product/2022-08-27/17737b0_big.jpg",
-        "category": 3
-    }
-},
-{
-    "model": "base.product",
-    "pk": 3,
-    "fields": {
-        "name": "Table lamp EGLO 35982",
-        "slug": "Table-amp-EGLO-35982",
-        "small_description": "Fastening type:\r\non a clamp\r\nLight:\r\n1 x E27 (max.40.00W), purchased separately\r\nDimensions:\r\n22 cm- 73 cm",
-        "price": "15.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/35982b0_big.jpg",
-        "category": 2
-    }
-},
-{
-    "model": "base.product",
-    "pk": 5,
-    "fields": {
-        "name": "Kandelero nga WUNDERLICHT 25312",
-        "slug": "kandelero-nga-wunderlicht-25312",
-        "small_description": "Fastening type:mounting bar\r\nLight:6 x E14 (max.40.00W), purchased separately\r\nDimensions:\r\n17 cm-77 cm",
-        "price": "40.00",
-        "is_visible": true,
-        "picture": "product/2022-08-27/25312b0_big.jpg",
-        "category": 3
-    }
-},
-{
-    "model": "base.product",
-    "pk": 6,
-    "fields": {
-        "name": "Lamp EGLO 93380",
-        "slug": "lamp-eglo-93380",
-        "small_description": "Dimensions:\r\n11.8 cm\r\n9.5 cm\r\nCartridge type:\r\nE27\r\nLamp power, W:\r\n6.00",
-        "price": "10.00",
-        "is_visible": true,
-        "picture": "product/2022-08-27/93380b0_big_Okogblx.jpg",
-        "category": 1
-    }
-},
-{
-    "model": "base.product",
-    "pk": 7,
-    "fields": {
-        "name": "Chandelier BLITZ 16036",
-        "slug": "chandelier-blitz-16036",
-        "small_description": "Fastening type: mounting bar\r\nLight source: 5 x E14 (max. 40.00 W),\r\nare purchased separately\r\nDimensions: 28 cm-55 cm",
-        "price": "200.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/16036b0_big_RwVHGkB.jpg",
-        "category": 3
-    }
-},
-{
-    "model": "base.product",
-    "pk": 8,
-    "fields": {
-        "name": "Floor lamp NOWODVORSKI 84941",
-        "slug": "floor-lamp-nowodvorski-84941",
-        "small_description": "Fastening type:\r\non the surface\r\nLight:\r\n1 x E27 (max.100.00W), purchased separately\r\nDimensions:\r\n205 cm\r\n \r\n30 cm\r\n \r\n186 cm",
-        "price": "100.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/84941b0_big.jpg",
-        "category": 5
-    }
-},
-{
-    "model": "base.product",
-    "pk": 9,
-    "fields": {
-        "name": "Floor lamp MAYTONI 27177",
-        "slug": "floor-lamp-maytoni-27177",
-        "small_description": "Light:\r\n1 x E27 (max.60.00W), purchased separately\r\nDimensions:\r\n235 cm\r\n \r\n55 cm\r\n \r\n173 cm",
-        "price": "149.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/27177b0_big.jpg",
-        "category": 5
-    }
-},
-{
-    "model": "base.product",
-    "pk": 10,
-    "fields": {
-        "name": "Floor lamp ZUMALINE 78322",
-        "slug": "floor-lamp-zumaline-78322",
-        "small_description": "Fastening type:\r\non the surface\r\nLight:\r\n5 x E14 (max.40.00W), purchased separately\r\nDimensions:\r\n208 cm\r\n \r\n115 cm",
-        "price": "350.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/78322b0_big.jpg",
-        "category": 5
-    }
-},
-{
-    "model": "base.product",
-    "pk": 11,
-    "fields": {
-        "name": "Floor lamp EGLO 37772",
-        "slug": "floor-lamp-eglo-37772",
-        "small_description": "Fastening type:\r\non the surface\r\nLight:\r\n1 x E27 (max.60.00W), purchased separately\r\nDimensions:\r\n176",
-        "price": "168.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/37772b0_big.jpg",
-        "category": 5
-    }
-},
-{
-    "model": "base.product",
-    "pk": 12,
-    "fields": {
-        "name": "Chandelier EGLO 26011",
-        "slug": "chandelier-eglo-26011",
-        "small_description": "Mount type:\r\nmounting plate\r\nLight source:\r\n3 x E27 (max.60.00W), sold separately\r\nDimensions:\r\n36 cm",
-        "price": "250.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/26011b0_big.jpg",
-        "category": 3
-    }
-},
-{
-    "model": "base.product",
-    "pk": 13,
-    "fields": {
-        "name": "Lamp EGLO 95131",
-        "slug": "lamp-eglo-95131",
-        "small_description": "Dimensions:\r\n12 cm\r\n3.5 cm\r\nCartridge type:\r\nE14\r\nLamp power, W:\r\n4.00",
-        "price": "10.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/95131b0_big.jpg",
-        "category": 1
-    }
-},
-{
-    "model": "base.product",
-    "pk": 14,
-    "fields": {
-        "name": "Lamp KANLUX 47918",
-        "slug": "lamp-kanlux-47918",
-        "small_description": "Dimensions:\r\n5.5 cm\r\n5 cm\r\nCartridge type:\r\nGU10\r\nLamp power, W:\r\n5.00",
-        "price": "4.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/47918b0_big.jpg",
-        "category": 1
-    }
-},
-{
-    "model": "base.product",
-    "pk": 15,
-    "fields": {
-        "name": "Lamp EGLO 96437",
-        "slug": "lamp-eglo-96437",
-        "small_description": "Dimensions:\r\n29 cm\r\n \r\n20 cm\r\nCartridge type:\r\nE27\r\nLamp power, W:\r\n8.00",
-        "price": "25.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/96437b0_big.jpg",
-        "category": 1
-    }
-},
-{
-    "model": "base.product",
-    "pk": 16,
-    "fields": {
-        "name": "Table lamp EGLO 35930",
-        "slug": "table-lamp-eglo-35930",
-        "small_description": "Fastening type:\r\non the surface\r\nLight:\r\n1 x E14 (max.60.00W), purchased separately\r\nDimensions:\r\n35 cm\r\n \r\n26 cm",
-        "price": "70.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/35930b0_big.jpg",
-        "category": 2
-    }
-},
-{
-    "model": "base.product",
-    "pk": 17,
-    "fields": {
-        "name": "Table lamp KANLUX 84450",
-        "slug": "table-lamp-kanlux-84450",
-        "small_description": "Fastening type:\r\nto the surface\r\nSource of light:\r\n1 x E14 (max.40.00W), purchased separately\r\nDimensions:\r\n53 cm\r\n \r\n15.7 cm",
-        "price": "50.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/84450b0_big.jpg",
-        "category": 2
-    }
-},
-{
-    "model": "base.product",
-    "pk": 18,
-    "fields": {
-        "name": "Table lamp FREYA 40629",
-        "slug": "table-lamp-freya-40629",
-        "small_description": "Source of light:\r\n1 x E27 (max.25.00W), purchased separately\r\nDimensions:\r\n41.4 cm\r\n \r\n13 cm\r\n \r\n26.3 cm",
-        "price": "87.00",
-        "is_visible": true,
-        "picture": "product/2022-08-31/40629b0_big.jpg",
-        "category": 2
-    }
-},
-{
-    "model": "base.product",
-    "pk": 20,
-    "fields": {
-        "name": "Chandelier MAYTONI 38351",
-        "slug": "chandelier-maytoni-38351",
-        "small_description": "Chandelier MAYTONI 38351Mount type:\r\nmounting plate\r\nLight source:\r\n11 x E14 (max.40.00W), sold separately\r\nDimensions:\r\n39.5 cm\r\n \r\n52 cm",
-        "price": "640.00",
-        "is_visible": true,
-        "picture": "product/2022-09-03/38351b0_big.jpg",
-        "category": 3
-    }
-},
-{
-    "model": "base.product",
-    "pk": 21,
-    "fields": {
-        "name": "Street lamp EGLO 92720",
-        "slug": "street-lamp-eglo-92720",
-        "small_description": "Mount type:\r\nmounting plate\r\nLight source:\r\n1 x E27 (max.60.00W), sold separately\r\nDimensions:\r\n25.5 cm\r\n \r\n26.5 cm\r\n \r\n28 cm",
-        "price": "135.20",
-        "is_visible": true,
-        "picture": "product/2022-09-03/92720b0_big.jpg",
-        "category": 1
-    }
-},
-{
-    "model": "base.userform",
-    "pk": 19,
-    "fields": {
-        "name": "asd",
-        "phone": "1234567890",
-        "date": "2022-09-01",
-        "time": "16:13:00",
-        "text": "asdasdasd",
-        "is_processed": false
-    }
-},
-{
-    "model": "base.userform",
-    "pk": 20,
-    "fields": {
-        "name": "asdasd",
-        "phone": "1234567890",
-        "date": "2022-09-08",
-        "time": "16:15:00",
-        "text": "Asdasdasdasdasd",
-        "is_processed": false
-    }
-},
-{
-    "model": "base.userform",
-    "pk": 21,
-    "fields": {
-        "name": "asdasdasd",
-        "phone": "1234567890",
-        "date": "2022-09-17",
-        "time": "17:17:00",
-        "text": "sadasdasdasdasdasdasdasd",
-        "is_processed": true
-    }
-},
-{
-    "model": "base.userform",
-    "pk": 22,
-    "fields": {
-        "name": "asdasdasd",
-        "phone": "1234567890",
-        "date": "2022-09-06",
-        "time": "16:19:00",
-        "text": "asdasdsadsadsadasdasdsazxczxczxczxczcxzc",
-        "is_processed": true
-    }
-},
-{
-    "model": "base.userform",
-    "pk": 23,
-    "fields": {
-        "name": "asas",
-        "phone": "1234567890",
-        "date": "2022-09-26",
-        "time": "17:21:00",
-        "text": "asdasdaszxcxzcrefx rev v fv xvcv xcv xcvx cv",
-        "is_processed": true
-    }
-},
-{
-    "model": "base.mailing",
-    "pk": 1,
-    "fields": {
-        "email": "asd@gmail.com",
-        "mailing_start_date": "2022-08-31T09:21:32.260Z"
-    }
-},
-{
-    "model": "base.mailing",
-    "pk": 2,
-    "fields": {
-        "email": "asdasd@gmail.com",
-        "mailing_start_date": "2022-08-31T09:33:50.174Z"
-    }
-},
-{
-    "model": "base.mailing",
-    "pk": 3,
-    "fields": {
-        "email": "asd@gmail.com",
-        "mailing_start_date": "2022-08-31T09:35:27.541Z"
-    }
-},
-{
-    "model": "base.mailing",
-    "pk": 6,
-    "fields": {
-        "email": "asd@gmail.com",
-        "mailing_start_date": "2022-09-03T11:33:56.338Z"
-    }
-},
-{
-    "model": "base.mailing",
-    "pk": 10,
-    "fields": {
-        "email": "somemail.123@gmail.com",
-        "mailing_start_date": "2022-10-31T21:53:07.274Z"
-    }
-},
-{
-    "model": "base.mailing",
-    "pk": 11,
-    "fields": {
-        "email": "bogdan.maksimenko.2002@gmail.com",
-        "mailing_start_date": "2022-11-02T18:21:47.882Z"
-    }
-},
-{
-    "model": "cart.userorderform",
-    "pk": 125,
-    "fields": {
-        "order": "We have a new order:Bohdan-1231231234\n His order,total price is 12.00!",
-        "name": "Bohdan",
-        "phone": "1231231234",
-        "is_processed": false
-    }
-},
-{
-    "model": "cart.userorderform",
-    "pk": 126,
-    "fields": {
-        "order": "We have a new order:Богдан-1231231234\n His order,total price is 274.00!",
-        "name": "Богдан",
-        "phone": "1231231234",
-        "is_processed": false
-    }
-}]
+}
