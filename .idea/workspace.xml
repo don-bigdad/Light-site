@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45bdcf00-7a6d-4b2b-8661-1ae34593fefb" name="Changes" comment="." />
+    <list default="true" id="45bdcf00-7a6d-4b2b-8661-1ae34593fefb" name="Changes" comment="append everything i have">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Light/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Light/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Light&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Light",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Light\static" />
@@ -167,6 +173,9 @@
       <workItem from="1667330521259" duration="4293000" />
       <workItem from="1667385973036" duration="9834000" />
       <workItem from="1667411414041" duration="2102000" />
+      <workItem from="1667413689223" duration="88000" />
+      <workItem from="1667485160453" duration="84000" />
+      <workItem from="1667485258683" duration="1064000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;configured the output of the main file, created a couple of applications">
       <created>1661519665085</created>
@@ -434,7 +443,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667413526949</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="append photo to display when deploy on heroku">
+      <created>1667413731501</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1667413731501</updated>
+    </task>
+    <task id="LOCAL-00040" summary="append everything i have">
+      <created>1667413768744</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1667413768744</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,8 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chekpoint with contact form" />
-    <MESSAGE value="regiter form is done" />
     <MESSAGE value="full done registration/login/manager page/buttons only for manager etc." />
     <MESSAGE value="pagination.Problem is no sorted by category when click on page num" />
     <MESSAGE value="DB add descrip +style" />
@@ -489,7 +510,9 @@
     <MESSAGE value="ready for deploy" />
     <MESSAGE value="redid reviews" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="append photo to display when deploy on heroku" />
+    <MESSAGE value="append everything i have" />
+    <option name="LAST_COMMIT_MESSAGE" value="append everything i have" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

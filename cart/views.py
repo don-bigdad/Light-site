@@ -76,7 +76,7 @@ def cart_detail(request):
                 else:
                     cart_remove(request, elem.get("id"))
             mail=send_mail("Success order in Light Shop", order_str, EMAIL_HOST_USER, [request.user.email,],
-                      fail_silently = False)
+                      fail_silently = True)
             if mail:
                 messages.success(request,"Thanks for order,our manager will contact you latter.")
             else:
