@@ -4486,7 +4486,7 @@
 },
 {
     "model": "contenttypes.contenttype",
-    "pk": 7,
+    "pk": 117,
     "fields": {
         "app_label": "base",
         "model": "category"
