@@ -4608,8 +4608,8 @@
     "model": "sessions.session",
     "pk": "zjrzsxpj1xke2cx7x4591p1vto1sozhn",
     "fields": {
-        "session_data": ".eJxVjEEOgyAQRe8y64YwCAIuu_cMZoCh2DaaoK6Md29N3Lj9772_Q6S6QrcfDxhoW8uwLVyHMUEHaOE2Boofnk6S3jS9ZhHnaa1jEKciLrqIfk78fV7u7aDQUv41kfbGxIy24UCoggte50a2LXqLziOT5MQm6xytk6SUYt2ik0EZpWOC4wdTODsa:1oqIN3:ML3WXcDVrFI1gZ7BBBM7TVZlobhgJ735_pq_OIxf4Nk",
-        "expire_date": "2022-11-16T18:21:49.414Z"
+        "session_data": ".eJxVjEEOgyAQRe8y64YwCAIuu_cMZoCh2DaaoK6Md29N3Lj9772_Q6S6QrcfDxhoW8uwLVyHMUEHaOE2Boofnk6S3jS9ZhHnaa1jEKciLrqIfk78fV7u7aDQUv41kfbGxIy24UCoggte50a2LXqLziOT5MQm6xytk6SUYt2ik0EZpWOC4wdTODsa:1oqhOy:XDhrQ9OtefVGDsrEed5C2ydsn_a8r0HAppvjiXbpV-w",
+        "expire_date": "2022-11-17T21:05:28.717Z"
     }
 },
 {
@@ -5186,5 +5186,4 @@
         "phone": "1231231234",
         "is_processed": false
     }
-}
-]
+}]
