@@ -2574,1319 +2574,6 @@
     }
 },
 {
-    "model": "admin.logentry",
-    "pk": 199,
-    "fields": {
-        "action_time": "2022-10-31T21:50:05.859Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "68",
-        "object_repr": "asd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 200,
-    "fields": {
-        "action_time": "2022-10-31T22:18:55.078Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "8",
-        "object_repr": "Chandelier WUNDERLICHT 40412",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 201,
-    "fields": {
-        "action_time": "2022-10-31T22:31:43.263Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "10",
-        "object_repr": "primer",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 202,
-    "fields": {
-        "action_time": "2022-10-31T22:44:02.887Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "10",
-        "object_repr": "primer",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 203,
-    "fields": {
-        "action_time": "2022-10-31T22:44:08.293Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "9",
-        "object_repr": "Chandelier EGLO 14723",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 204,
-    "fields": {
-        "action_time": "2022-10-31T22:44:53.604Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "10",
-        "object_repr": "primer",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 205,
-    "fields": {
-        "action_time": "2022-10-31T22:48:34.973Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "10",
-        "object_repr": "primer",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 206,
-    "fields": {
-        "action_time": "2022-10-31T22:48:54.649Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "1",
-        "object_repr": "Chandelier nga FREYA 12268",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 207,
-    "fields": {
-        "action_time": "2022-10-31T22:48:58.419Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "2",
-        "object_repr": "Chandelier MAYTONI 27260",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 208,
-    "fields": {
-        "action_time": "2022-10-31T22:49:01.955Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "3",
-        "object_repr": "Chandelier MAYTONI 31809",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 209,
-    "fields": {
-        "action_time": "2022-10-31T22:49:05.142Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "3",
-        "object_repr": "Chandelier MAYTONI 31809",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 210,
-    "fields": {
-        "action_time": "2022-10-31T22:49:08.668Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "2",
-        "object_repr": "Chandelier MAYTONI 27260",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 211,
-    "fields": {
-        "action_time": "2022-10-31T22:49:11.938Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "3",
-        "object_repr": "Chandelier MAYTONI 31809",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 212,
-    "fields": {
-        "action_time": "2022-10-31T22:49:16.909Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "4",
-        "object_repr": "Bath lamp NOWODVORSKI 37544",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 213,
-    "fields": {
-        "action_time": "2022-10-31T22:49:20.805Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "5",
-        "object_repr": "Street lamp NOWODVORSKI 84933",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 214,
-    "fields": {
-        "action_time": "2022-10-31T22:49:24.238Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "6",
-        "object_repr": "Street lamp NOWODVORSKI 58255",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 215,
-    "fields": {
-        "action_time": "2022-10-31T22:49:28.428Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "7",
-        "object_repr": "Chandelier WUNDERLICHT 40383",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 216,
-    "fields": {
-        "action_time": "2022-10-31T22:49:31.024Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "7",
-        "object_repr": "Chandelier WUNDERLICHT 40383",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 217,
-    "fields": {
-        "action_time": "2022-10-31T22:49:35.598Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "8",
-        "object_repr": "Chandelier WUNDERLICHT 40412",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 218,
-    "fields": {
-        "action_time": "2022-10-31T22:49:39.390Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "10",
-        "object_repr": "primer",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 219,
-    "fields": {
-        "action_time": "2022-10-31T22:49:57.209Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "10",
-        "object_repr": "primer",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Picture\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 220,
-    "fields": {
-        "action_time": "2022-10-31T22:52:20.046Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "10",
-        "object_repr": "primer",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 221,
-    "fields": {
-        "action_time": "2022-10-31T23:05:20.262Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "11",
-        "object_repr": "primer2",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 222,
-    "fields": {
-        "action_time": "2022-10-31T23:05:47.977Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "12",
-        "object_repr": "primer3",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 223,
-    "fields": {
-        "action_time": "2022-10-31T23:06:13.767Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "13",
-        "object_repr": "primer4",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 224,
-    "fields": {
-        "action_time": "2022-10-31T23:41:33.330Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "22",
-        "object_repr": "asdsadsa",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 225,
-    "fields": {
-        "action_time": "2022-11-01T17:56:17.693Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "10",
-        "object_repr": "Spotlight ARTGLASS 38761",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\", \"Small description\", \"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 226,
-    "fields": {
-        "action_time": "2022-11-01T17:56:22.628Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "12",
-        "object_repr": "primer3",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 227,
-    "fields": {
-        "action_time": "2022-11-01T17:56:28.876Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "13",
-        "object_repr": "primer4",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 228,
-    "fields": {
-        "action_time": "2022-11-01T17:56:31.925Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "11",
-        "object_repr": "primer2",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 229,
-    "fields": {
-        "action_time": "2022-11-01T17:56:36.341Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "10",
-        "object_repr": "Spotlight ARTGLASS 38761",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 230,
-    "fields": {
-        "action_time": "2022-11-01T17:57:29.651Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "10",
-        "object_repr": "Spotlight ARTGLASS 38761",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 231,
-    "fields": {
-        "action_time": "2022-11-01T17:59:57.168Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "14",
-        "object_repr": "Spotlight ARTGLASS 28831",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 232,
-    "fields": {
-        "action_time": "2022-11-01T18:02:14.766Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "15",
-        "object_repr": "Spotlight ARTGLASS 38760",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 233,
-    "fields": {
-        "action_time": "2022-11-01T18:02:44.584Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "15",
-        "object_repr": "Spotlight ARTGLASS 38760",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Position\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 234,
-    "fields": {
-        "action_time": "2022-11-01T18:04:07.894Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "16",
-        "object_repr": "Spotlight ARTGLASS 39453",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 235,
-    "fields": {
-        "action_time": "2022-11-01T19:08:44.896Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "22",
-        "object_repr": "asdsadsa",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 236,
-    "fields": {
-        "action_time": "2022-11-01T19:26:54.231Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "23",
-        "object_repr": "asdasdsadsa",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 237,
-    "fields": {
-        "action_time": "2022-11-01T20:38:02.780Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "12",
-        "object_repr": "user2",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 238,
-    "fields": {
-        "action_time": "2022-11-01T20:38:02.789Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "13",
-        "object_repr": "user3",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 239,
-    "fields": {
-        "action_time": "2022-11-01T20:38:02.794Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "14",
-        "object_repr": "user4",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 240,
-    "fields": {
-        "action_time": "2022-11-01T20:38:02.799Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "15",
-        "object_repr": "user8",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 241,
-    "fields": {
-        "action_time": "2022-11-01T20:38:02.805Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "16",
-        "object_repr": "user9",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 242,
-    "fields": {
-        "action_time": "2022-11-01T20:38:12.718Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "2",
-        "object_repr": "user1",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 243,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.873Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "85",
-        "object_repr": "bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 244,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.880Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "84",
-        "object_repr": "bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 245,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.887Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "83",
-        "object_repr": "bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 246,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.893Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "82",
-        "object_repr": "bogdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 247,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.899Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "81",
-        "object_repr": "bogdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 248,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.906Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "80",
-        "object_repr": "bogdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 249,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.911Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "79",
-        "object_repr": "bogdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 250,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.918Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "78",
-        "object_repr": "bogdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 251,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.924Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "77",
-        "object_repr": "bogdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 252,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.930Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "76",
-        "object_repr": "vovich",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 253,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.936Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "75",
-        "object_repr": "asd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 254,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.942Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "74",
-        "object_repr": "ktototam",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 255,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.948Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "73",
-        "object_repr": "ktototam",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 256,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.953Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "72",
-        "object_repr": "bogdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 257,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.959Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "71",
-        "object_repr": "bogda",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 258,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.964Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "70",
-        "object_repr": "asd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 259,
-    "fields": {
-        "action_time": "2022-11-02T11:02:57.969Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "69",
-        "object_repr": "asd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 260,
-    "fields": {
-        "action_time": "2022-11-02T11:59:08.722Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "95",
-        "object_repr": "bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 261,
-    "fields": {
-        "action_time": "2022-11-02T11:59:08.727Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "94",
-        "object_repr": "bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 262,
-    "fields": {
-        "action_time": "2022-11-02T11:59:08.733Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "93",
-        "object_repr": "bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 263,
-    "fields": {
-        "action_time": "2022-11-02T11:59:08.740Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "92",
-        "object_repr": "bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 264,
-    "fields": {
-        "action_time": "2022-11-02T11:59:08.745Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "91",
-        "object_repr": "bohdann",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 265,
-    "fields": {
-        "action_time": "2022-11-02T11:59:08.753Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "90",
-        "object_repr": "bohdann",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 266,
-    "fields": {
-        "action_time": "2022-11-02T11:59:08.759Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "89",
-        "object_repr": "asd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 267,
-    "fields": {
-        "action_time": "2022-11-02T11:59:08.765Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "88",
-        "object_repr": "bohdann",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 268,
-    "fields": {
-        "action_time": "2022-11-02T11:59:08.771Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "87",
-        "object_repr": "bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 269,
-    "fields": {
-        "action_time": "2022-11-02T11:59:08.779Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "86",
-        "object_repr": "bogdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 270,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.658Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "107",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 271,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.681Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "106",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 272,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.688Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "105",
-        "object_repr": "Bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 273,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.693Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "104",
-        "object_repr": "asdasd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 274,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.699Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "103",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 275,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.705Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "102",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 276,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.710Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "101",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 277,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.716Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "100",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 278,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.721Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "99",
-        "object_repr": "asd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 279,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.726Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "98",
-        "object_repr": "vovich",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 280,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.730Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "97",
-        "object_repr": "bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 281,
-    "fields": {
-        "action_time": "2022-11-02T12:54:44.736Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "96",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 282,
-    "fields": {
-        "action_time": "2022-11-02T12:57:09.961Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "23",
-        "object_repr": "asdasdsadsa",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 283,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.683Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "124",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 284,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.690Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "123",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 285,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.696Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "122",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 286,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.702Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "121",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 287,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.708Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "120",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 288,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.715Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "119",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 289,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.720Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "118",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 290,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.725Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "117",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 291,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.732Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "116",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 292,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.737Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "115",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 293,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.741Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "114",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 294,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.745Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "113",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 295,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.751Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "112",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 296,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.756Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "111",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 297,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.761Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "110",
-        "object_repr": "asdd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 298,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.766Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "109",
-        "object_repr": "bohdan",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 299,
-    "fields": {
-        "action_time": "2022-11-02T13:24:07.771Z",
-        "user": 1,
-        "content_type": 13,
-        "object_id": "108",
-        "object_repr": "asddd",
-        "action_flag": 3,
-        "change_message": ""
-    }
-},
-{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -4367,7 +3054,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$390000$1zIZXELlCnOK2iBgi6AcMd$CVjmlzEvaibj+GulJJkqWFKEs49vZqIhsE9RYnO+ujc=",
-        "last_login": "2022-11-02T13:09:45.323Z",
+        "last_login": "2022-09-05T14:11:48.015Z",
         "is_superuser": true,
         "username": "admin",
         "first_name": "",
@@ -4376,6 +3063,24 @@
         "is_staff": true,
         "is_active": true,
         "date_joined": "2022-08-27T09:42:15.623Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$Xxi2hfqdSexqUYA5NWgUsO$wfC6LxXKCW2rSoXY2CMejvx8FCr+q6vdnyckqSOJKFI=",
+        "last_login": "2022-09-05T07:33:41.759Z",
+        "is_superuser": false,
+        "username": "user1",
+        "first_name": "",
+        "last_name": "",
+        "email": "asd@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-08-29T20:03:42.612Z",
         "groups": [],
         "user_permissions": []
     }
@@ -4402,36 +3107,90 @@
 },
 {
     "model": "auth.user",
-    "pk": 17,
+    "pk": 12,
     "fields": {
-        "password": "pbkdf2_sha256$390000$ZwuXufBscxP2ptXo5HgrR5$kS9YHT9IqXK+A5MuyBI9hHSeZOuLFjLZDnAvyR2uWWk=",
-        "last_login": "2022-11-02T18:06:44.601Z",
+        "password": "pbkdf2_sha256$390000$HEgL9GJ0CMiHFYGlg31y5H$pXuQ8yOYPSayM/nexVhEYrKewgfYzxetN0nDJ+bnpus=",
+        "last_login": "2022-09-03T18:45:07.949Z",
         "is_superuser": false,
-        "username": "user1",
+        "username": "user2",
         "first_name": "",
         "last_name": "",
-        "email": "bogdan.maksimenko.2002@gmail.com",
+        "email": "some@gmail.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2022-11-01T20:39:35.871Z",
+        "date_joined": "2022-09-01T18:02:05.986Z",
         "groups": [],
         "user_permissions": []
     }
 },
 {
     "model": "auth.user",
-    "pk": 18,
+    "pk": 13,
     "fields": {
-        "password": "pbkdf2_sha256$390000$W4NFHt2xFnB4PjOng0Qx9I$nFdthKw9zKkOORkBaWJW4FVFzHxhoIB4WWjRY4IeDaE=",
-        "last_login": "2022-11-02T12:20:08.855Z",
+        "password": "pbkdf2_sha256$390000$ZSKF7WZbvFgwBVbWUV15LQ$H5MwTxYvaUx08qvpr2bSQWGcYzDbyo+8rf2X1bUICko=",
+        "last_login": null,
         "is_superuser": false,
-        "username": "user2",
+        "username": "user3",
         "first_name": "",
         "last_name": "",
-        "email": "nagubator.org@gmail.com",
+        "email": "asd@gmail.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2022-11-02T12:20:08.661Z",
+        "date_joined": "2022-09-01T18:02:20.797Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 14,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$RMvvHiySZrKv0YfaHKq8OV$rW5BPjUL3WBeAOOAAQ9MhXdFVnLmr8OYon/1jalJkUs=",
+        "last_login": "2022-09-02T13:27:36.578Z",
+        "is_superuser": false,
+        "username": "user4",
+        "first_name": "",
+        "last_name": "",
+        "email": "asdd@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-09-01T18:05:24.354Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 15,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$nWpThTs4QuikgQb9eKsHec$KJJrCHHBu5zE8SZIbizNFtYg2Z3TGFmzA2TbjcayIx4=",
+        "last_login": "2022-09-05T14:10:34.198Z",
+        "is_superuser": false,
+        "username": "user8",
+        "first_name": "",
+        "last_name": "",
+        "email": "bogdan.maksimenko.2002@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-09-04T12:28:52.465Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 16,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$avggU5eFzwqbfAfTMceHeJ$9rQM8QTxpsLLXc+/HQDa8rUD+cbk6GiPqw9NwmPkKss=",
+        "last_login": "2022-09-04T17:31:13.629Z",
+        "is_superuser": false,
+        "username": "user9",
+        "first_name": "",
+        "last_name": "",
+        "email": "asd@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-09-04T17:31:13.426Z",
         "groups": [],
         "user_permissions": []
     }
@@ -4486,7 +3245,7 @@
 },
 {
     "model": "contenttypes.contenttype",
-    "pk": 117,
+    "pk": 7,
     "fields": {
         "app_label": "base",
         "model": "category"
@@ -4544,8 +3303,8 @@
     "model": "sessions.session",
     "pk": "12u98hpo7yfvial2elag0jk6v0yaqqm1",
     "fields": {
-        "session_data": ".eJxVjDsOgzAQBe_iOrKMbGyWMn3OgPZHTBKBBKZC3D0gUSTtm3mzmQ7Xkrt10bkbxLSmMrffjZDfOp5AXjg-J8vTWOaB7KnYiy72MYl-7pf7F8i45OPNlAgdVEkCU9Cmib0HTRAc-xAwOgWIxDEw1uBiRMGexNeek9QgekQZ52Labd-_NBc7wQ:1oVEDU:iPgAfF31kcGMkRI_C2-yJH5U3q256AYIVgudvSsQsd0",
-        "expire_date": "2022-09-19T15:40:52.576Z"
+        "session_data": ".eJxVjDsOgzAQBe_iOrKMbGyWMn3OgPZHTBKBBKZC3D0gUSTtm3mzmQ7Xkrt10bkbxLSmMrffjZDfOp5AXjg-J8vTWOaB7KnYiy72MYl-7pf7F8i45OPNlAgdVEkCU9Cmib0HTRAc-xAwOgWIxDEw1uBiRMGexNeek9QgekQZ52Labd-_NBc7wQ:1oVDw4:rd0OuEQXQ29vYB0q3M05vc1cBg6OHhixY-HPd2nlsbs",
+        "expire_date": "2022-09-19T15:22:52.233Z"
     }
 },
 {
@@ -4605,14 +3364,6 @@
     }
 },
 {
-    "model": "sessions.session",
-    "pk": "zjrzsxpj1xke2cx7x4591p1vto1sozhn",
-    "fields": {
-        "session_data": ".eJxVjEEOgyAQRe8y64YwCAIuu_cMZoCh2DaaoK6Md29N3Lj9772_Q6S6QrcfDxhoW8uwLVyHMUEHaOE2Boofnk6S3jS9ZhHnaa1jEKciLrqIfk78fV7u7aDQUv41kfbGxIy24UCoggte50a2LXqLziOT5MQm6xytk6SUYt2ik0EZpWOC4wdTODsa:1oqhOy:XDhrQ9OtefVGDsrEed5C2ydsn_a8r0HAppvjiXbpV-w",
-        "expire_date": "2022-11-17T21:05:28.717Z"
-    }
-},
-{
     "model": "base.saleitem",
     "pk": 1,
     "fields": {
@@ -4622,7 +3373,7 @@
         "past_price": "22.00",
         "new_price": "14.00",
         "is_visible": true,
-        "position": 0,
+        "position": 1,
         "picture": "sale/2022-08-27/12268b0_big_bcLptJm.jpg"
     }
 },
@@ -4636,7 +3387,7 @@
         "past_price": "350.00",
         "new_price": "225.50",
         "is_visible": true,
-        "position": 1,
+        "position": 2,
         "picture": "sale/2022-09-01/27260b0_big_hwuMrD5.jpg"
     }
 },
@@ -4650,7 +3401,7 @@
         "past_price": "22.00",
         "new_price": "12.00",
         "is_visible": true,
-        "position": 2,
+        "position": 3,
         "picture": "sale/2022-08-27/31809b0_big_cuskCyl.jpg"
     }
 },
@@ -4664,7 +3415,7 @@
         "past_price": "11.00",
         "new_price": "4.00",
         "is_visible": true,
-        "position": 3,
+        "position": 4,
         "picture": "sale/2022-09-01/37544b0_big_VSPk2z1.jpg"
     }
 },
@@ -4678,7 +3429,7 @@
         "past_price": "31.00",
         "new_price": "14.00",
         "is_visible": true,
-        "position": 4,
+        "position": 5,
         "picture": "sale/2022-08-27/84933b0_big_8MhS3Yz.jpg"
     }
 },
@@ -4692,7 +3443,7 @@
         "past_price": "110.00",
         "new_price": "100.00",
         "is_visible": true,
-        "position": 5,
+        "position": 6,
         "picture": "sale/2022-08-27/58255b0_big_t3SxQnC.jpg"
     }
 },
@@ -4706,7 +3457,7 @@
         "past_price": "110.00",
         "new_price": "90.00",
         "is_visible": true,
-        "position": 6,
+        "position": 7,
         "picture": "sale/2022-08-27/40383b0_big.jpg"
     }
 },
@@ -4720,64 +3471,22 @@
         "past_price": "70.00",
         "new_price": "66.20",
         "is_visible": true,
-        "position": 7,
+        "position": 39,
         "picture": "sale/2022-08-27/40412b0_big.jpg"
     }
 },
 {
     "model": "base.saleitem",
-    "pk": 10,
+    "pk": 9,
     "fields": {
-        "name": "Spotlight ARTGLASS 38761",
-        "slug": "spotlight-artglass-38761",
-        "small_description": "Mount type:\r\nfixing spring\r\nLight source:\r\n1 x GU5.3 (max.5.00W), sold separately\r\nDimensions:\r\n9 cm\r\n \r\n12 cm",
-        "past_price": "123.00",
-        "new_price": "58.00",
-        "is_visible": true,
-        "position": 8,
-        "picture": "sale/2022-11-01/Снимок_экрана_2022-04-21_165538.png"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 14,
-    "fields": {
-        "name": "Spotlight ARTGLASS 28831",
-        "slug": "spotlight-artglass-28831",
-        "small_description": "Mount type:\r\nmounting plate\r\nLight source:\r\n1 x E14 (max.40.00W), sold separately\r\nDimensions:\r\n14.5 cm\r\n \r\n11.5 cm",
-        "past_price": "450.00",
-        "new_price": "299.00",
-        "is_visible": true,
-        "position": 9,
-        "picture": "sale/2022-11-01/Screenshot-2018-12-16-at-21.06.29.png"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 15,
-    "fields": {
-        "name": "Spotlight ARTGLASS 38760",
-        "slug": "spotlight-artglass-38760",
-        "small_description": "Mount type:\r\nfixing spring\r\nLight source:\r\n1 x GU5.3 (max.5.00W), sold separately\r\nDimensions:\r\n11 cm\r\n \r\n12 cm",
-        "past_price": "399.00",
-        "new_price": "240.00",
-        "is_visible": true,
-        "position": 10,
-        "picture": "sale/2022-11-01/Screenshot-2018-12-16-at-21.06.29_LeMUQhB.png"
-    }
-},
-{
-    "model": "base.saleitem",
-    "pk": 16,
-    "fields": {
-        "name": "Spotlight ARTGLASS 39453",
-        "slug": "spotlight-artglass-39453",
-        "small_description": "Mount type:\r\nfixing spring\r\nLight source:\r\n1 x GU5.3 (max.5.00W), sold separately\r\nDimensions:\r\n28 cm\r\n \r\n12 cm",
-        "past_price": "700.00",
-        "new_price": "565.00",
-        "is_visible": true,
-        "position": 11,
-        "picture": "sale/2022-11-01/Screenshot-2018-12-16-at-21.06.29_NEOZyij.png"
+        "name": "Chandelier EGLO 14723",
+        "slug": "chandelier-eglo-14723",
+        "small_description": "",
+        "past_price": "200.00",
+        "new_price": "110.00",
+        "is_visible": false,
+        "position": 29,
+        "picture": "sale/2022-08-31/14723b0_big.jpg"
     }
 },
 {
@@ -5152,38 +3861,14 @@
     }
 },
 {
-    "model": "base.mailing",
-    "pk": 10,
-    "fields": {
-        "email": "somemail.123@gmail.com",
-        "mailing_start_date": "2022-10-31T21:53:07.274Z"
-    }
-},
-{
-    "model": "base.mailing",
-    "pk": 11,
-    "fields": {
-        "email": "bogdan.maksimenko.2002@gmail.com",
-        "mailing_start_date": "2022-11-02T18:21:47.882Z"
-    }
-},
-{
     "model": "cart.userorderform",
-    "pk": 125,
+    "pk": 68,
     "fields": {
-        "order": "We have a new order:Bohdan-1231231234\n His order,total price is 12.00!",
-        "name": "Bohdan",
+        "order": "We have a new order : Chandelier MAYTONI 27260 - 1 \n,total price is 225.50!",
+        "email": "asdasd@gmail.com",
+        "name": "asd",
         "phone": "1231231234",
         "is_processed": false
     }
-},
-{
-    "model": "cart.userorderform",
-    "pk": 126,
-    "fields": {
-        "order": "We have a new order:Богдан-1231231234\n His order,total price is 274.00!",
-        "name": "Богдан",
-        "phone": "1231231234",
-        "is_processed": false
-    }
-}]
+}
+]
