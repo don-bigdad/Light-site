@@ -4485,6 +4485,14 @@
     }
 },
 {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "cart",
+        "model": "userorderform"
+    }
+},
+{
     "model": "sessions.session",
     "pk": "12u98hpo7yfvial2elag0jk6v0yaqqm1",
     "fields": {
