@@ -4485,54 +4485,6 @@
     }
 },
 {
-    "model": "contenttypes.contenttype",
-    "pk": 8,
-    "fields": {
-        "app_label": "base",
-        "model": "saleitem"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 9,
-    "fields": {
-        "app_label": "base",
-        "model": "product"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 10,
-    "fields": {
-        "app_label": "base",
-        "model": "customslider"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 11,
-    "fields": {
-        "app_label": "base",
-        "model": "userform"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 12,
-    "fields": {
-        "app_label": "base",
-        "model": "mailing"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 13,
-    "fields": {
-        "app_label": "cart",
-        "model": "userorderform"
-    }
-},
-{
     "model": "sessions.session",
     "pk": "12u98hpo7yfvial2elag0jk6v0yaqqm1",
     "fields": {
