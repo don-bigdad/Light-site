@@ -11,7 +11,7 @@
         <div class="carousel-item active">
           <div class="row">
             {% for item in sale_item %}
-              {% if item.position >= 1 and item.position <= 4 %}
+              {% if item.position >= 0 and item.position <= 4 %}
                 <div class="col">
                   <div class="card saleitem">
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
