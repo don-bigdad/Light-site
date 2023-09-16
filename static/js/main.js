@@ -1,5 +1,5 @@
 
-const countDownDate = new Date("Nov 31,2022 00:00:00").getTime();  
+const countDownDate = new Date("Sep 1,2024 00:00:00").getTime();  
 
 
 var countDownFunction =setInterval(function() {
