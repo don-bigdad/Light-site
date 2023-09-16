@@ -6,61 +6,63 @@
     <h1 class="TitleSaling">Until the end of the sale left</h1>
     <hr>
     <p class="time" id="timer"></p>
-    <div id="SalingCarousel" class="carousel slide SaleCarousel" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row">
-            {% for item in sale_item %}
-              {% if item.position >= 5 %}
-                <div class="col">
-                  <div class="card saleitem">
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                      {{ item.sale_percent_auto_calculate }}%
-                    </span>
-                    <img src="{{ item.picture.url }}" class="card-img-top" alt="sale item">
-                    <div class="card-body">
-                      <h5 class="card-title">{{ item.name }}</h5>
-                      <p class="card-text">{{ item.small_description }}</p><br>
-                      <s>{{ item.past_price }}$</s>
-                      <strong>{{ item.new_price }}$</strong>
-                      <a href="{% url 'cart:cart_add_sale_item' item.id item.slug %}" style="margin-left: 5px; width: 110px" class="cart-btn btn btn-warning">Add to cart</a>
+    <div class="overflow-hidden"> <!-- Добавляем overflow-hidden здесь -->
+      <div id="SalingCarousel" class="carousel slide SaleCarousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              {% for item in sale_item %}
+                {% if item.position >= 5 %}
+                  <div class="col">
+                    <div class="card saleitem">
+                      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        {{ item.sale_percent_auto_calculate }}%
+                      </span>
+                      <img src="{{ item.picture.url }}" class="card-img-top" alt="sale item">
+                      <div class="card-body">
+                        <h5 class="card-title">{{ item.name }}</h5>
+                        <p class="card-text">{{ item.small_description }}</p><br>
+                        <s>{{ item.past_price }}$</s>
+                        <strong>{{ item.new_price }}$</strong>
+                        <a href="{% url 'cart:cart_add_sale_item' item.id item.slug %}" style="margin-left: 5px; width: 110px" class="cart-btn btn btn-warning">Add to cart</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-              {% endif %}
-            {% endfor %}
+                {% endif %}
+              {% endfor %}
+            </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            {% for item in sale_item %}
-              {% if item.position < 5 and item.position >= 0 %}
-                <div class="col">
-                  <div class="card saleitem">
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                      {{ item.sale_percent_auto_calculate }}%
-                    </span>
-                    <img src="{{ item.picture.url }}" class="card-img-top" alt="sale item">
-                    <div class="card-body">
-                      <h5 class="card-title">{{ item.name }}</h5>
-                      <p class="card-text">{{ item.small_description }}</p><br>
-                      <s>{{ item.past_price }}$</s>
-                      <strong>{{ item.new_price }}$</strong>
-                      <a href="{% url 'cart:cart_add_sale_item' item.id item.slug %}" style="margin-left: 5px; width: 110px" class="cart-btn btn btn-warning">Add to cart</a>
+          <div class="carousel-item">
+            <div class="row">
+              {% for item in sale_item %}
+                {% if item.position < 5 and item.position >= 0 %}
+                  <div class="col">
+                    <div class="card saleitem">
+                      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        {{ item.sale_percent_auto_calculate }}%
+                      </span>
+                      <img src="{{ item.picture.url }}" class="card-img-top" alt="sale item">
+                      <div class="card-body">
+                        <h5 class="card-title">{{ item.name }}</h5>
+                        <p class="card-text">{{ item.small_description }}</p><br>
+                        <s>{{ item.past_price }}$</s>
+                        <strong>{{ item.new_price }}$</strong>
+                        <a href="{% url 'cart:cart_add_sale_item' item.id item.slug %}" style="margin-left: 5px; width: 110px" class="cart-btn btn btn-warning">Add to cart</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-              {% endif %}
-            {% endfor %}
+                {% endif %}
+              {% endfor %}
+            </div>
           </div>
         </div>
+        <button style="left: -5%;" class="carousel-control-prev" type="button" data-bs-target="#SalingCarousel" data-bs-slide="prev">
+          <span style="background-image: url({% static '/img/slider/left-arrow.png' %})" class="carousel-control-prev-icon" aria-hidden="false"></span>
+        </button>
+        <button style="right: -5%; position: absolute;" class="carousel-control-next" type="button" data-bs-target="#SalingCarousel" data-bs-slide="next">
+          <span style="background-image: url({% static '/img/slider/right-arrow.png' %})" class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
       </div>
-      <button style="left: -5%;" class="carousel-control-prev" type="button" data-bs-target="#SalingCarousel" data-bs-slide="prev">
-        <span style="background-image: url({% static '/img/slider/left-arrow.png' %})" class="carousel-control-prev-icon" aria-hidden="false"></span>
-      </button>
-      <button style="right: -5%; position: absolute;" class="carousel-control-next" type="button" data-bs-target="#SalingCarousel" data-bs-slide="next">
-        <span style="background-image: url({% static '/img/slider/right-arrow.png' %})" class="carousel-control-next-icon" aria-hidden="true"></span>
-      </button>
     </div>
   </div>
 </section>
