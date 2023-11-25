@@ -48,6 +48,7 @@ To run the project on your local machine, follow these steps:
 ## Contact
 
 For additional information or feedback, feel free to reach out:
-- Email: your_email@example.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/bohdan-maksymenko-2a4aa2292/)
+- Email: bohdan.maksymenko.jv@gmail.com
+- Telegram: https://t.me/Blgdad
+- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/bohdan-maksymenko-2a4aa2292/)
 
