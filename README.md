@@ -1,6 +1,6 @@
 # LightSite
 
-![Project Image]([link/to/your/image.png](https://media.licdn.com/dms/image/D4D2DAQEG8Pk2jGKy4w/profile-treasury-image-shrink_1920_1920/0/1698573272787?e=1701529200&v=beta&t=dVMazQy9p0pAn-84XJ2ujEny92gAVoji58TJOZfYrZw))
+![Project Image](https://media.licdn.com/dms/image/D4D2DAQEG8Pk2jGKy4w/profile-treasury-image-shrink_1920_1920/0/1698573272787?e=1701529200&v=beta&t=dVMazQy9p0pAn-84XJ2ujEny92gAVoji58TJOZfYrZw)
 
 ## Overview
 
@@ -38,7 +38,7 @@ LightSite is deployed on the Heroku platform to ensure accessibility and conveni
 
 To run the project on your local machine, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your_username/your_project.git`
+1. Clone the repository: `git clone https://github.com/don-bigdad/Light-site.git`
 2. Navigate to the project directory: `cd your_project`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Start the server: `python manage.py runserver`
@@ -49,4 +49,5 @@ To run the project on your local machine, follow these steps:
 
 For additional information or feedback, feel free to reach out:
 - Email: your_email@example.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your_profile)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/bohdan-maksymenko-2a4aa2292/)
+
