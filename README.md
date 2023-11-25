@@ -1,24 +1,52 @@
-Project: LightSite
-Overview
-This training project, undertaken at Prog Academy from March 2022 to April 2022, showcases a web application developed using Python3 and Django framework. It aims to provide users with a seamless experience of browsing and ordering lamps they desire.
+# LightSite
 
-Technologies Used
-Python3
-Django
-Jinja
-HTML/CSS
-Bootstrap
-PostgreSQL
-Features
-The application allows users to:
+![Project Image](link/to/your/image.png)
 
-Browse and select lamps they like.
-Place orders after registering on the platform.
-Submit feedback regarding their experience.
-Upon ordering, an email containing order details is sent to both the manager and the client.
-Deployment
-LightSite is deployed on Heroku, ensuring accessibility and availability for users.
+## Overview
 
-This project serves as a demonstration of proficiency in Python, Django, and associated technologies, illustrating the implementation of an e-commerce platform for lamp ordering.
+LightSite is a web application developed during the training period at Prog Academy from March 2022 to April 2022. It allows users to order lamps they like. To place an order, the user must register. Users can also submit feedback. After placing an order, both the manager and the client receive an email with order details. The application is deployed on the Heroku platform.
 
-Feel free to reach out for more details or to experience the application firsthand!
+---
+
+## Technologies Used
+
+- Python 3
+- Django
+- Jinja
+- HTML/CSS
+- Bootstrap
+- PostgreSQL
+
+---
+
+## Features
+
+- Browse and select lamps.
+- Place orders after registering on the platform.
+- Submit feedback regarding user experience.
+- Email notifications sent to manager and client after order placement.
+
+---
+
+## Deployment
+
+LightSite is deployed on the Heroku platform to ensure accessibility and convenience for users.
+
+---
+
+## Running the Project
+
+To run the project on your local machine, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your_username/your_project.git`
+2. Navigate to the project directory: `cd your_project`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Start the server: `python manage.py runserver`
+
+---
+
+## Contact
+
+For additional information or feedback, feel free to reach out:
+- Email: your_email@example.com
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your_profile)
