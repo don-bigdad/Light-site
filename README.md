@@ -1,6 +1,6 @@
 # LightSite
 
-![Project Image](link/to/your/image.png)
+![Project Image]([link/to/your/image.png](https://media.licdn.com/dms/image/D4D2DAQEG8Pk2jGKy4w/profile-treasury-image-shrink_1920_1920/0/1698573272787?e=1701529200&v=beta&t=dVMazQy9p0pAn-84XJ2ujEny92gAVoji58TJOZfYrZw))
 
 ## Overview
 
